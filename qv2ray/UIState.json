@@ -1,0 +1,20 @@
+{
+    "ImportWindow": {
+        "height": 482,
+        "width": 549,
+        "x": 0,
+        "y": 0
+    },
+    "MainWindow": {
+        "height": 1048,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+    },
+    "PreferenceWindow": {
+        "height": 603,
+        "width": 886,
+        "x": 0,
+        "y": 0
+    }
+}

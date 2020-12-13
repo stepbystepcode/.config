@@ -1,0 +1,236 @@
+{
+    "api": {
+        "services": [
+            "ReflectionService",
+            "HandlerService",
+            "LoggerService",
+            "StatsService"
+        ],
+        "tag": "QV2RAY_API"
+    },
+    "dns": {
+        "servers": [
+            "localhost",
+            "1.1.1.1",
+            "8.8.8.8",
+            "8.8.4.4"
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 15490,
+            "protocol": "dokodemo-door",
+            "settings": {
+                "address": "127.0.0.1"
+            },
+            "sniffing": {
+            },
+            "tag": "QV2RAY_API_INBOUND"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 8889,
+            "protocol": "http",
+            "settings": {
+                "allowTransparent": true,
+                "timeout": 300
+            },
+            "sniffing": {
+                "enabled": false
+            },
+            "tag": "http_IN"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 1089,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "ip": "127.0.0.1",
+                "udp": true
+            },
+            "sniffing": {
+                "enabled": false
+            },
+            "tag": "socks_IN"
+        }
+    ],
+    "log": {
+        "loglevel": "warning"
+    },
+    "outbounds": [
+        {
+            "protocol": "vmess",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "hkhkt02.host-sub.com",
+                        "port": 156,
+                        "users": [
+                            {
+                                "alterId": 0,
+                                "id": "f936583d-b490-32f5-b185-21e4d89551bd",
+                                "level": 0,
+                                "security": "auto"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "dsSettings": {
+                    "path": "/"
+                },
+                "httpSettings": {
+                    "host": [
+                    ],
+                    "path": "/"
+                },
+                "kcpSettings": {
+                    "congestion": false,
+                    "downlinkCapacity": 20,
+                    "header": {
+                        "type": "none"
+                    },
+                    "mtu": 1350,
+                    "readBufferSize": 1,
+                    "tti": 20,
+                    "uplinkCapacity": 5,
+                    "writeBufferSize": 1
+                },
+                "network": "tcp",
+                "quicSettings": {
+                    "header": {
+                        "type": "none"
+                    },
+                    "key": "",
+                    "security": ""
+                },
+                "security": "none",
+                "sockopt": {
+                    "mark": 255,
+                    "tcpFastOpen": false,
+                    "tproxy": "off"
+                },
+                "tcpSettings": {
+                    "header": {
+                        "request": {
+                            "headers": {
+                            },
+                            "method": "GET",
+                            "path": [
+                            ],
+                            "version": "1.1"
+                        },
+                        "response": {
+                            "headers": {
+                            },
+                            "reason": "OK",
+                            "status": "200",
+                            "version": "1.1"
+                        },
+                        "type": "none"
+                    }
+                },
+                "tlsSettings": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "alpn": [
+                        "http/1.1"
+                    ],
+                    "certificates": [
+                    ],
+                    "disableSessionResumption": true,
+                    "disableSystemRoot": false,
+                    "serverName": ""
+                },
+                "wsSettings": {
+                    "headers": {
+                    },
+                    "path": "/"
+                },
+                "xtlsSettings": {
+                    "allowInsecure": false,
+                    "allowInsecureCiphers": false,
+                    "alpn": [
+                        "http/1.1"
+                    ],
+                    "certificates": [
+                    ],
+                    "disableSessionResumption": true,
+                    "disableSystemRoot": false,
+                    "serverName": ""
+                }
+            },
+            "tag": "PROXY"
+        },
+        {
+            "protocol": "freedom",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "domainStrategy": "AsIs",
+                "redirect": ":0"
+            },
+            "streamSettings": {
+            },
+            "tag": "DIRECT"
+        },
+        {
+            "protocol": "blackhole",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "response": {
+                    "type": "none"
+                }
+            },
+            "streamSettings": {
+            },
+            "tag": "BLACKHOLE"
+        }
+    ],
+    "policy": {
+        "system": {
+            "statsInboundDownlink": true,
+            "statsInboundUplink": true,
+            "statsOutboundDownlink": true,
+            "statsOutboundUplink": true
+        }
+    },
+    "routing": {
+        "domainStrategy": "AsIs",
+        "rules": [
+            {
+                "inboundTag": [
+                    "QV2RAY_API_INBOUND"
+                ],
+                "outboundTag": "QV2RAY_API",
+                "type": "field"
+            },
+            {
+                "ip": [
+                    "geoip:private"
+                ],
+                "outboundTag": "DIRECT",
+                "type": "field"
+            },
+            {
+                "ip": [
+                    "geoip:cn"
+                ],
+                "outboundTag": "DIRECT",
+                "type": "field"
+            },
+            {
+                "domain": [
+                    "geosite:cn"
+                ],
+                "outboundTag": "DIRECT",
+                "type": "field"
+            }
+        ]
+    },
+    "stats": {
+    }
+}

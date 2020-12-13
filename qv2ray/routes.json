@@ -1,0 +1,54 @@
+{
+    "lmcojjgjmoru": {
+        "connectionConfig": {
+            "bypassBT": false,
+            "bypassCN": true,
+            "bypassLAN": true,
+            "dnsIntercept": false,
+            "enableProxy": true,
+            "fakeDNS": false,
+            "v2rayFreedomDNS": false,
+            "withLocalDNS": true
+        },
+        "dnsConfig": {
+            "clientIp": "",
+            "hosts": {
+            },
+            "servers": [
+            ],
+            "tag": ""
+        },
+        "forwardProxyConfig": {
+            "enableForwardProxy": false,
+            "password": "",
+            "port": 0,
+            "serverAddress": "",
+            "type": "http",
+            "useAuth": false,
+            "username": ""
+        },
+        "overrideConnectionConfig": false,
+        "overrideDNS": false,
+        "overrideForwardProxyConfig": false,
+        "overrideRoute": false,
+        "routeConfig": {
+            "domainStrategy": "AsIs",
+            "domains": {
+                "block": [
+                ],
+                "direct": [
+                ],
+                "proxy": [
+                ]
+            },
+            "ips": {
+                "block": [
+                ],
+                "direct": [
+                ],
+                "proxy": [
+                ]
+            }
+        }
+    }
+}
