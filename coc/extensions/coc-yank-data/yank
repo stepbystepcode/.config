@@ -10,3 +10,326 @@ a39570035805a8120fc4df3b78d71701|file:///home/peter/.config/nvim/init.vim|157|1|
 	set nowritebackup
 51fa7bbf1a7e2159c928f2bf11cae465|file:///home/peter/.config/nvim/init.vim|156|1|V|vim
 	" Some servers have issues with backup files, see #649.
+68f20a1bbea056bef8cfb889ac2cb59f|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
+		"flutter.outlineWidth": 40,
+ccad02f38f3c54140b93ee79f6b06ad4|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
+		"flutter.outlineIconPadding": 0,
+3eefe8ea16dfeedd7a833d541162e43b|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
+		"flutter.UIPath": true,
+f35cc8bf5be304fb7c8b871ff2cc6bce|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
+		"flutter.openDevLogSplitCommand": "botright 12split",
+8e24c3be611d24624c47fbf37706aa98|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
+		"flutter.lsp.initialization.onlyAnalyzeProjectsWithOpenFiles": false,
+aca70e96a6f7d70aac36a221c547e13e|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+			"ccls": {
+c4c8413a6ba14cb15d3e5e3ddef4bd88|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+				"command": "ccls",
+d2b6094eeef5277ba488ec794ae69f66|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+				"filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+72f4e7c52271bcea391adda5d7e14560|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+				"rootPatterns": [".ccls", ".ccls-root", "compile_commands.json", ".git/", ".hg/"],
+c0bc15973d5cd1ad36f90b7784e46a04|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+				"initializationOptions": {
+a14d2022326ba842dc6be457cd0bc577|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+					"cache": {
+ec1e5354a39a2231b3bc643521dc55f5|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+						"directory": "/tmp/ccls"
+db055267170d4cb929cef5944ce89bfe|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+					}
+40985e24734e7c2edc3ce26e56f94064|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
+				}
+008a95aa5dcdde278309c9799a782adb|file:///home/peter/.config/nvim/coc-settings.json|1|1|V|json
+		"coc.preferences.hoverTarget": "preview",
+		"coc.preferences.enableFloatHighlight": true,
+		"coc.preferences.snippetStatusText": "Ⓢ ",
+		"coc.preferences.extensionUpdateCheck": "daily",
+		"coc.preferences.messageLevel": "error",
+		"coc.source.around.firstMatch": false,
+		"coc.source.buffer.firstMatch": false,
+		"coc.source.syntax.firstMatch": false,
+		"suggest.detailMaxLength": 60,
+		"suggest.noselect": true,
+		"suggest.enablePreselect": false,
+		"suggest.triggerAfterInsertEnter": true,
+		"suggest.autoTrigger": "always",
+		"suggest.timeout": 5000,
+		"suggest.enablePreview": true,
+		"suggest.floatEnable": true,
+		"suggest.detailField": "preview",
+		"suggest.snippetIndicator": "",
+		"suggest.triggerCompletionWait": 100,
+		"suggest.echodocSupport": true,
+		"suggest.completioItemKindLabels": {
+			"class": "\uf0e8",
+			"color": "\ue22b",
+			"constant": "\uf8fe",
+			"default": "\uf29c",
+			"enum": "\uf435",
+			"enumMember": "\uf02b",
+			"event": "\ufacd",
+			"field": "\uf93d",
+			"file": "\uf723",
+			"folder": "\uf115",
+			"function": "\u0192",
+			"interface": "\uf417",
+			"keyword": "\uf1de",
+			"method": "\uf6a6",
+			"module": "\uf40d",
+			"operator": "\uf915",
+			"property": "\ue624",
+			"reference": "\ufa46",
+			"snippet": "\ue60b",
+			"struct": "\ufb44",
+			"text": "\ue612",
+			"typeParameter": "\uf728",
+			"unit": "\uf475",
+			"value": "\uf89f",
+			"variable": "\ue71b"
+		},
+		"diagnostic.signOffset": 1,
+		"diagnostic.errorSign": "\uf467",
+		"diagnostic.warningSign": "\uf071",
+		"diagnostic.infoSign": "\uf129",
+		"diagnostic.hintSign": "\uf864",
+		"diagnostic.displayByAle": false,
+		"diagnostic.refreshOnInsertMode": false,
+		"diagnostic.refreshAfterSave": false,
+		"diagnostic.checkCurrentLine": true,
+		"diagnostic.virtualTextPrefix": " ❯❯❯ ",
+		"diagnostic.virtualText": true,
+		"codeLens.enable": true,
+		"list.previewHighlightGroup": "Statement",
+		"list.nextKeymap": "<C-e>",
+		"list.previousKeymap": "<C-u>",
+		"snippets.ultisnips.directories": [
+			"$HOME/.config/nvim/Ultisnips/",
+			"$HOME/.config/nvim/plugged/vim-snippets/UltiSnips/"
+		],
+		"coc.preferences.formatOnSaveFiletypes": [
+			"javascript",
+			"typescript",
+			"html",
+			"css",
+			"json",
+			"python",
+			"vue",
+			"svelte",
+			"c"
+		],
+		"yaml.format.enable": true,
+		"signature.target": "float",
+		"yank.enableCompletion": false,
+		"typescript.suggestionActions.enabled": true,
+		"typescript.format.enabled": true,
+		"explorer.width": 38,
+		"explorer.quitOnOpen": true,
+		"explorer.sources": [
+			{
+				"name": "buffer",
+				"expand": false
+			},
+			{
+				"name": "file",
+				"expand": true
+			}
+		],
+		"explorer.file.column.indent.indentLine": true,
+		"explorer.file.showHiddenFiles": true,
+		"explorer.icon.enableNerdfont": true,
+		"explorer.file.column.git.showIgnored": true,
+		"explorer.keyMappingMode": "none",
+		"explorer.buffer.showHiddenBuffers": false,
+5ec1ae927d34da5e08e97a191f279cc9|file:///home/peter/.config/nvim/coc-settings.json|1|1|V|json
+		"explorer.keyMappings": {
+			"u": "nodePrev",
+			"e": "nodeNext",
+			"h": "toggleSelection",
+			"<tab>": "actionMenu",
+			"gl": "expandRecursive",
+			"gh": "collapseRecursive",
+			"i": "open",
+			"<cr>": "open",
+			"I": "openInVsplit",
+			"o": "expand",
+			"O": "openInTab",
+			"n": "collapse",
+			"l": "gotoParent",
+			"yp": "copyFilepath",
+			"yn": "copyFilename",
+			"yy": "copyFile",
+			"dd": "cutFile",
+			"pp": "pasteFile",
+			"dD": "deleteForever",
+			"a": "addFile",
+			"k": "addFile",
+			"M": "addDirectory",
+			"cw": "rename",
+			".": "toggleHidden",
+			"zh": "toggleHidden",
+			"R": "refresh",
+			"?": "help",
+			"q": "quit",
+			"X": "systemExecute",
+			"gd": "listDrive",
+			"f": "search",
+			"F": "searchRecursive",
+			"B": "gotoSource:file",
+			"b": "gotoSource:buffer",
+			"[[": "sourcePrev",
+			"]]": "sourceNext",
+			"[d": "diagnosticPrev",
+			"]d": "diagnosticNext",
+			"[c": "gitPrev",
+			"]c": "gitNext",
+			"<<": "gitStage",
+			">>": "gitUnstage"
+		},
+		"tslint.autoFixOnSave": false,
+		"python.autoComplete.addBrackets": true,
+		"python.jediEnabled": false,
+		"python.formatting.provider": "yapf",
+		"python.formatting.yapfArgs": [
+			"--style",
+			"{SPACES_AROUND_POWER_OPERATOR: True, SPACES_BEFORE_COMMENT: 1}"
+		],
+		"html.format.enable": true,
+		"javascript.referencesCodeLens.enable": true,
+		"javascript.showUnused": true,
+		"javascript.suggest.names": true,
+		"javascript.suggestionActions.enabled": true,
+		"json.format.enable": true,
+		"eslint.autoFixOnSave": false,
+		"prettier.printWidth": 100,
+		"prettier.eslintIntegration": true,
+		"prettier.disableLanguages": [],
+		"prettier.formatterPriority": 1,
+		"prettier.useTabs": true,
+		"prettier.trailingComma": "all",
+		"prettier.singleQuote": false,
+		"todolist.autoUpload": true,
+		"todolist.promptForReminder": false,
+		"coc-actions.hideCursor": false,
+		"coc-actions.showActionKind": true,
+		"diagnostic-languageserver.filetypes": {
+			"vim": "vint",
+			"email": "languagetool",
+			"markdown": ["write-good", "markdownlint"],
+			"sh": "shellcheck",
+			"elixir": ["mix_credo", "mix_credo_compile"],
+			"eelixir": ["mix_credo", "mix_credo_compile"],
+			"php": ["phpstan", "psalm"]
+		},
+		"diagnostic-languageserver.formatFiletypes": {
+			"elixir": "mix_format",
+			"eelixir": "mix_format"
+		},
+		"languageserver": {
+			"lua": {
+				"command": "lua-lsp",
+				"filetypes": ["lua"]
+			},
+			"swift": {
+				"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
+				"args": [],
+				"filetypes": ["swift"],
+				"initializationOptions": {},
+				"settings": {}
+			},
+			"golang": {
+				"command": "gopls",
+				"rootPatterns": ["go.mod"],
+				"filetypes": ["go"],
+				"initializationOptions": {
+					"gocodeCompletionEnabled": true,
+					"diagnosticsEnabled": true,
+					"lintTool": "golint"
+				}
+			},
+			"bash": {
+				"command": "bash-language-server",
+				"args": ["start"],
+				"filetypes": ["sh"],
+				"ignoredRootPaths": []
+			}
+		}
+	}
+81418378d8af17f9130500b7cca33d40|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"command": "lua-lsp",
+3bfb41841ee6599bf040f5f0b2a507ac|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"filetypes": ["lua"]
+60a43d5f8f12d4adf9920baf99db9919|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+			},
+b58c1bd08404917d2e31f25222a153ad|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+			"swift": {
+6080ffcfaf18b09d5fa1cde018363e5c|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
+aed79f343a93ec80615313c3eb7185df|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"args": [],
+c5e485a7a468da3b8e5cccd2a7b38b68|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"filetypes": ["swift"],
+1cfe49ac63a78674b35e2cc316c86ca3|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"initializationOptions": {},
+36a60e6e6151986343e0298a5a26055e|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"settings": {}
+125ceed443bfd3c889ff4740cdaff939|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+			"golang": {
+55110cd3d09b5d71cb366cb05e6b6591|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"command": "gopls",
+0f820f2aded17ccf509a6a65483f3551|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"rootPatterns": ["go.mod"],
+04b3d1c625f744c89a9fe616c53faece|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+				"filetypes": ["go"],
+495c026d065ba5cf1956c51fb52cd7fc|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+					"gocodeCompletionEnabled": true,
+bdac070078c9072fb9fe367aa0dd8338|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+					"diagnosticsEnabled": true,
+150707a1c749d9e49653c1cc905783c8|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
+					"lintTool": "golint"
+be01dd6eea660bb245350c149fe123cd|file:///home/peter/.config/nvim/init.vim|66|7|v|vim
+	theniceboy
+5ab491cb14aa390ca4ebc2670ddc7eb0|file:///home/peter/.config/nvim/init.vim|66|11|V|vim
+	Plug 'honza/vim-snippets'
+007a8605aab2a5d54711343b7dd00445|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|443|1|V|snippets
+				<title>${1:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
+f6e888e482e2886feb72698fb3b0c9b7|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|457|1|V|snippets
+				<title>Document</title>
+0945359809dad1fbf3dea1c95a0da951|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|457|11|v|snippets
+	Document
+2864512e4161ae21b145798e32938abf|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|456|62|v|snippets
+	Page Title
+c9bed820f54213733afe60ea2e69f767|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|457|18|V|snippets
+				<title></title>
+652ce777b472ebe8af30d0e4281c8eeb|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|447|1|V|snippets
+				${0:body}
+8c5edfadd309c3284f7fbdc87c827e22|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|444|1|V|snippets
+				${2:link}
+eacf331f0ffc35d4b482f1d15a887d3b|file:///home/peter/index.html|1|1|V|html
+	index.html
+2a304a1348456ccd2234cd71a81bd338|file:///home/peter/index.html|7|5|v|html
+	link
+fe364450e1391215f596d043488f989f|file:///home/peter/index.html|1|4|V|html
+	<!DOCTYPE html>
+066af1a2545ded1a1009f0024a79759a|file:///home/peter/index.html|1|4|V|html
+	<html lang="en">
+babd0daf38a8ba8a6c33c4d1d354eb56|file:///home/peter/index.html|1|4|V|html
+	<head>
+dc4209043aa91e7a4ddd926407691527|file:///home/peter/index.html|1|4|V|html
+	    <meta charset="UTF-8">
+d24c7e30f2c9db8e853a10b581bb3f15|file:///home/peter/index.html|1|4|V|html
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+f635d8dce083943fda0097aa61ec79c7|file:///home/peter/index.html|1|4|V|html
+	    <title>head</title>
+0cf31b2c283ce3431794586df7b0996d|file:///home/peter/index.html|1|4|V|html
+	    
+0efa13d18e21e1c280569064dccd2d9f|file:///home/peter/index.html|1|4|V|html
+	</head>
+bc1d3a136e6f54eff73adaf5669b9be3|file:///home/peter/index.html|1|4|V|html
+	<body>
+844a3ddad3c9e91a9ce743e54386eb22|file:///home/peter/index.html|1|4|V|html
+	    body
+a0bf95a38cb701564c34134431943259|file:///home/peter/index.html|1|4|V|html
+	</body>
+308065b5078a49f986fc3c9f9b66e5d3|file:///home/peter/index.html|1|4|V|html
+	</html>
+88fa71f0a6e0dfedbb46d91cc0b37a50|file:///home/peter/index.html|6|12|v|html
+	Index

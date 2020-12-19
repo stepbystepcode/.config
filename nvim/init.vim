@@ -56,6 +56,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'mg979/vim-xtabline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'honza/vim-snippets'
 "Plug 'theniceboy/vim-deus'
 "Plug 'junegunn/fzf.vim'
 "Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
@@ -63,7 +64,6 @@ Plug 'ryanoasis/vim-devicons'
 "Plug 'airblade/vim-rooter'
 "Plug 'liuchengxu/vista.vim'
 "Plug 'wellle/tmux-complete.vim'
-"Plug 'theniceboy/vim-snippets'
 "Plug 'mbbill/undotree'
 "Plug 'theniceboy/vim-gitignore', { 'for': ['gitignore', 'vim-plug'] }
 "Plug 'fszymanski/fzf-gitignore', { 'do': ':UpdateRemotePlugins' }

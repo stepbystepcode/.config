@@ -19,7 +19,7 @@
 	"suggest.snippetIndicator": "",
 	"suggest.triggerCompletionWait": 100,
 	"suggest.echodocSupport": true,
-	"suggest.completioItemKindLabels": {
+	"suggest.completionItemKindLabels": {
 		"class": "\uf0e8",
 		"color": "\ue22b",
 		"constant": "\uf8fe",
@@ -65,7 +65,17 @@
 		"$HOME/.config/nvim/Ultisnips/",
 		"$HOME/.config/nvim/plugged/vim-snippets/UltiSnips/"
 	],
-	"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "html", "css", "json", "python", "vue", "svelte", "c"],
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"typescript",
+		"html",
+		"css",
+		"json",
+		"python",
+		"vue",
+		"svelte",
+		"c"
+	],
 	"yaml.format.enable": true,
 	"signature.target": "float",
 	"yank.enableCompletion": false,
@@ -178,27 +188,6 @@
 		"eelixir": "mix_format"
 	},
 	"languageserver": {
-		"lua": {
-			"command": "lua-lsp",
-			"filetypes": ["lua"]
-		},
-		"swift": {
-			"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
-			"args": [],
-			"filetypes": ["swift"],
-			"initializationOptions": {},
-			"settings": {}
-		},
-		"golang": {
-			"command": "gopls",
-			"rootPatterns": ["go.mod"],
-			"filetypes": ["go"],
-			"initializationOptions": {
-				"gocodeCompletionEnabled": true,
-				"diagnosticsEnabled": true,
-				"lintTool": "golint"
-			}
-		},
 		"bash": {
 			"command": "bash-language-server",
 			"args": ["start"],
