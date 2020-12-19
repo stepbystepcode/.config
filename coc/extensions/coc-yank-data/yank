@@ -1,0 +1,12 @@
+bb0eb3e2179936c26f767ca26c5503b4|file:///home/peter/.config/nvim/init.vim|133|1|V|vim
+		\ 'coc-flutter-tools',
+4159aaacbcde5a949427898ee407670a|file:///home/peter/Documents/c%2B%2B/hello-world.cpp|2|17|V|cpp
+	#include <fstream
+aeac27fc8becbd1cd980108a2e9ce5ca|file:///home/peter/Documents/c%2B%2B/hello-world.cpp|2|4|V|cpp
+	#inc
+050f12685a7aaab890e9d10d1fcafff8|file:///home/peter/.config/nvim/init.vim|157|1|V|vim
+	set nobackup
+a39570035805a8120fc4df3b78d71701|file:///home/peter/.config/nvim/init.vim|157|1|V|vim
+	set nowritebackup
+51fa7bbf1a7e2159c928f2bf11cae465|file:///home/peter/.config/nvim/init.vim|156|1|V|vim
+	" Some servers have issues with backup files, see #649.
