@@ -333,3 +333,19 @@ a0bf95a38cb701564c34134431943259|file:///home/peter/index.html|1|4|V|html
 	</html>
 88fa71f0a6e0dfedbb46d91cc0b37a50|file:///home/peter/index.html|6|12|v|html
 	Index
+68847e46fa7de2379886b293d217899b|file:///home/peter/lsusb.txt|203|29|v|text
+	Western Digital Technologies, Inc.
+6a16b6f68708967117bb58421a702c0a|file:///home/peter/lsusb.txt|204|29|v|text
+	Elements Portable (WDBUZG)
+91f4d1214d6c98c2838f1f537e0e44e7|file:///home/peter/.zshrc|114|41|v|zsh
+	--proxy-server='127.0.0.1:7890
+575c86c8121a7cfaa26a61ea9b1b02d4|file:///home/peter/.zshrc|117|7|V|zsh
+	  proxy
+4b7961bbfcdefbad2b6fe10485f2fa74|file:///home/peter/.zshrc|112|14|v|zsh
+	setsid /home/peter/scripts/proxy.sh >> /home/peter/Public/clash/clash.log &;export http_proxy=http://127.0.0.1:7890/
+fdb133b0a44a51ebf0aea5940bc41f2a|file:///home/peter/Public/dwm/config.h|86|39|v|cpp
+	chromium --proxy-server='127.0.0.1:7890
+dfd38ebebc91a289daab81db32c1ae9f|file:///home/peter/Public/dwm/config.h|86|1|V|cpp
+	static const char *browsercmd[]  = { "chromium --proxy-server=127.0.0.1:7890", NULL };
+b2e3368162393ddd1da0085188bf7c49|file:///home/peter/Public/dwm/config.h|86|1|V|cpp
+	static const char *browsercmd[]  = { "chromium", NULL };
