@@ -2,6 +2,7 @@ Code - OSS
 chromium
 coc/extensions/node_modules
 microsoft-edge-dev
+nvim/plugged/vim-snippets
 Kingsoft
 ibus
 dconf
