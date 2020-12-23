@@ -349,3 +349,20 @@ dfd38ebebc91a289daab81db32c1ae9f|file:///home/peter/Public/dwm/config.h|86|1|V|c
 	static const char *browsercmd[]  = { "chromium --proxy-server=127.0.0.1:7890", NULL };
 b2e3368162393ddd1da0085188bf7c49|file:///home/peter/Public/dwm/config.h|86|1|V|cpp
 	static const char *browsercmd[]  = { "chromium", NULL };
+f393f3f5e496869a15bc72cbfd56f541|file:///home/peter/Documents/c%2B%2B/zoo.cpp|2|17|v|cpp
+	identifier
+44f586c4f14eb7ff38adc2f65dbd815f|file:///home/peter/Documents/c%2B%2B/julian/julian.cpp|5|1|V|cpp
+	ifstream fin("julian.in");
+	ofstream fout("julian.out");
+23025c3d0cde5b082af2bcc7af1fcb6b|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|6|1|V|cpp
+	fstream fin
+338c23e8eafc19ec9236404deac0bef4|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|4|15|v|cpp
+	julian
+8073714b57d66aba0ae1ba2bff4053ca|file:///home/peter/Documents/c%2B%2B/julian/julian.cpp|17|16|V|cpp
+	  else return 0;
+3e179198030b185792f301c73bfe157d|file:///home/peter/.zshrc|119|1|V|zsh
+	alias run="/home/peter/Documents/c++/run.sh"
+27378259926d2532981fa52b2b2ad1c1|file:///home/peter/.zshrc|101|1|V|zsh
+	alias phone=scrcpy
+41e42bfe22110aa2cd4fb7a2ffbeb332|file:///home/peter/.zshrc|118|1|V|zsh
+	  setsid /home/peter/scripts/proxy.sh >> /home/peter/Public/clash/clash.log &;export http_proxy=http://127.0.0.1:7890/

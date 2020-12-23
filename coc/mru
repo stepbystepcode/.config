@@ -1,12 +1,15 @@
+/home/peter/scripts/autostart.sh
+/home/peter/.zshrc
+/home/peter/Documents/c++/julian/julian.cpp
+/home/peter/.config/nvim/init.vim
+/home/peter/Documents/c++/zoo.cpp
 /home/peter/.config/.gitignore
 /home/peter/Public/dwm/config.h
-/home/peter/.zshrc
 /home/peter/Downloads/typora-master/INSTALL.md
 /media/1.66_0/_metadata/computed_hashes.json
 /home/peter/lsusb.txt
 /home/peter/index.html
 /home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets
-/home/peter/.config/nvim/init.vim
 /home/peter/hello.cpp
 /home/peter/.config/nvim/coc-settings.json
 /home/peter/Documents/c++/1.cpp
