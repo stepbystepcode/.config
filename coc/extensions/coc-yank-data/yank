@@ -1,296 +1,3 @@
-bb0eb3e2179936c26f767ca26c5503b4|file:///home/peter/.config/nvim/init.vim|133|1|V|vim
-		\ 'coc-flutter-tools',
-4159aaacbcde5a949427898ee407670a|file:///home/peter/Documents/c%2B%2B/hello-world.cpp|2|17|V|cpp
-	#include <fstream
-aeac27fc8becbd1cd980108a2e9ce5ca|file:///home/peter/Documents/c%2B%2B/hello-world.cpp|2|4|V|cpp
-	#inc
-050f12685a7aaab890e9d10d1fcafff8|file:///home/peter/.config/nvim/init.vim|157|1|V|vim
-	set nobackup
-a39570035805a8120fc4df3b78d71701|file:///home/peter/.config/nvim/init.vim|157|1|V|vim
-	set nowritebackup
-51fa7bbf1a7e2159c928f2bf11cae465|file:///home/peter/.config/nvim/init.vim|156|1|V|vim
-	" Some servers have issues with backup files, see #649.
-68f20a1bbea056bef8cfb889ac2cb59f|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
-		"flutter.outlineWidth": 40,
-ccad02f38f3c54140b93ee79f6b06ad4|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
-		"flutter.outlineIconPadding": 0,
-3eefe8ea16dfeedd7a833d541162e43b|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
-		"flutter.UIPath": true,
-f35cc8bf5be304fb7c8b871ff2cc6bce|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
-		"flutter.openDevLogSplitCommand": "botright 12split",
-8e24c3be611d24624c47fbf37706aa98|file:///home/peter/.config/nvim/coc-settings.json|136|2|V|json
-		"flutter.lsp.initialization.onlyAnalyzeProjectsWithOpenFiles": false,
-aca70e96a6f7d70aac36a221c547e13e|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-			"ccls": {
-c4c8413a6ba14cb15d3e5e3ddef4bd88|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-				"command": "ccls",
-d2b6094eeef5277ba488ec794ae69f66|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-				"filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
-72f4e7c52271bcea391adda5d7e14560|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-				"rootPatterns": [".ccls", ".ccls-root", "compile_commands.json", ".git/", ".hg/"],
-c0bc15973d5cd1ad36f90b7784e46a04|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-				"initializationOptions": {
-a14d2022326ba842dc6be457cd0bc577|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-					"cache": {
-ec1e5354a39a2231b3bc643521dc55f5|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-						"directory": "/tmp/ccls"
-db055267170d4cb929cef5944ce89bfe|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-					}
-40985e24734e7c2edc3ce26e56f94064|file:///home/peter/.config/nvim/coc-settings.json|213|3|V|json
-				}
-008a95aa5dcdde278309c9799a782adb|file:///home/peter/.config/nvim/coc-settings.json|1|1|V|json
-		"coc.preferences.hoverTarget": "preview",
-		"coc.preferences.enableFloatHighlight": true,
-		"coc.preferences.snippetStatusText": "Ⓢ ",
-		"coc.preferences.extensionUpdateCheck": "daily",
-		"coc.preferences.messageLevel": "error",
-		"coc.source.around.firstMatch": false,
-		"coc.source.buffer.firstMatch": false,
-		"coc.source.syntax.firstMatch": false,
-		"suggest.detailMaxLength": 60,
-		"suggest.noselect": true,
-		"suggest.enablePreselect": false,
-		"suggest.triggerAfterInsertEnter": true,
-		"suggest.autoTrigger": "always",
-		"suggest.timeout": 5000,
-		"suggest.enablePreview": true,
-		"suggest.floatEnable": true,
-		"suggest.detailField": "preview",
-		"suggest.snippetIndicator": "",
-		"suggest.triggerCompletionWait": 100,
-		"suggest.echodocSupport": true,
-		"suggest.completioItemKindLabels": {
-			"class": "\uf0e8",
-			"color": "\ue22b",
-			"constant": "\uf8fe",
-			"default": "\uf29c",
-			"enum": "\uf435",
-			"enumMember": "\uf02b",
-			"event": "\ufacd",
-			"field": "\uf93d",
-			"file": "\uf723",
-			"folder": "\uf115",
-			"function": "\u0192",
-			"interface": "\uf417",
-			"keyword": "\uf1de",
-			"method": "\uf6a6",
-			"module": "\uf40d",
-			"operator": "\uf915",
-			"property": "\ue624",
-			"reference": "\ufa46",
-			"snippet": "\ue60b",
-			"struct": "\ufb44",
-			"text": "\ue612",
-			"typeParameter": "\uf728",
-			"unit": "\uf475",
-			"value": "\uf89f",
-			"variable": "\ue71b"
-		},
-		"diagnostic.signOffset": 1,
-		"diagnostic.errorSign": "\uf467",
-		"diagnostic.warningSign": "\uf071",
-		"diagnostic.infoSign": "\uf129",
-		"diagnostic.hintSign": "\uf864",
-		"diagnostic.displayByAle": false,
-		"diagnostic.refreshOnInsertMode": false,
-		"diagnostic.refreshAfterSave": false,
-		"diagnostic.checkCurrentLine": true,
-		"diagnostic.virtualTextPrefix": " ❯❯❯ ",
-		"diagnostic.virtualText": true,
-		"codeLens.enable": true,
-		"list.previewHighlightGroup": "Statement",
-		"list.nextKeymap": "<C-e>",
-		"list.previousKeymap": "<C-u>",
-		"snippets.ultisnips.directories": [
-			"$HOME/.config/nvim/Ultisnips/",
-			"$HOME/.config/nvim/plugged/vim-snippets/UltiSnips/"
-		],
-		"coc.preferences.formatOnSaveFiletypes": [
-			"javascript",
-			"typescript",
-			"html",
-			"css",
-			"json",
-			"python",
-			"vue",
-			"svelte",
-			"c"
-		],
-		"yaml.format.enable": true,
-		"signature.target": "float",
-		"yank.enableCompletion": false,
-		"typescript.suggestionActions.enabled": true,
-		"typescript.format.enabled": true,
-		"explorer.width": 38,
-		"explorer.quitOnOpen": true,
-		"explorer.sources": [
-			{
-				"name": "buffer",
-				"expand": false
-			},
-			{
-				"name": "file",
-				"expand": true
-			}
-		],
-		"explorer.file.column.indent.indentLine": true,
-		"explorer.file.showHiddenFiles": true,
-		"explorer.icon.enableNerdfont": true,
-		"explorer.file.column.git.showIgnored": true,
-		"explorer.keyMappingMode": "none",
-		"explorer.buffer.showHiddenBuffers": false,
-5ec1ae927d34da5e08e97a191f279cc9|file:///home/peter/.config/nvim/coc-settings.json|1|1|V|json
-		"explorer.keyMappings": {
-			"u": "nodePrev",
-			"e": "nodeNext",
-			"h": "toggleSelection",
-			"<tab>": "actionMenu",
-			"gl": "expandRecursive",
-			"gh": "collapseRecursive",
-			"i": "open",
-			"<cr>": "open",
-			"I": "openInVsplit",
-			"o": "expand",
-			"O": "openInTab",
-			"n": "collapse",
-			"l": "gotoParent",
-			"yp": "copyFilepath",
-			"yn": "copyFilename",
-			"yy": "copyFile",
-			"dd": "cutFile",
-			"pp": "pasteFile",
-			"dD": "deleteForever",
-			"a": "addFile",
-			"k": "addFile",
-			"M": "addDirectory",
-			"cw": "rename",
-			".": "toggleHidden",
-			"zh": "toggleHidden",
-			"R": "refresh",
-			"?": "help",
-			"q": "quit",
-			"X": "systemExecute",
-			"gd": "listDrive",
-			"f": "search",
-			"F": "searchRecursive",
-			"B": "gotoSource:file",
-			"b": "gotoSource:buffer",
-			"[[": "sourcePrev",
-			"]]": "sourceNext",
-			"[d": "diagnosticPrev",
-			"]d": "diagnosticNext",
-			"[c": "gitPrev",
-			"]c": "gitNext",
-			"<<": "gitStage",
-			">>": "gitUnstage"
-		},
-		"tslint.autoFixOnSave": false,
-		"python.autoComplete.addBrackets": true,
-		"python.jediEnabled": false,
-		"python.formatting.provider": "yapf",
-		"python.formatting.yapfArgs": [
-			"--style",
-			"{SPACES_AROUND_POWER_OPERATOR: True, SPACES_BEFORE_COMMENT: 1}"
-		],
-		"html.format.enable": true,
-		"javascript.referencesCodeLens.enable": true,
-		"javascript.showUnused": true,
-		"javascript.suggest.names": true,
-		"javascript.suggestionActions.enabled": true,
-		"json.format.enable": true,
-		"eslint.autoFixOnSave": false,
-		"prettier.printWidth": 100,
-		"prettier.eslintIntegration": true,
-		"prettier.disableLanguages": [],
-		"prettier.formatterPriority": 1,
-		"prettier.useTabs": true,
-		"prettier.trailingComma": "all",
-		"prettier.singleQuote": false,
-		"todolist.autoUpload": true,
-		"todolist.promptForReminder": false,
-		"coc-actions.hideCursor": false,
-		"coc-actions.showActionKind": true,
-		"diagnostic-languageserver.filetypes": {
-			"vim": "vint",
-			"email": "languagetool",
-			"markdown": ["write-good", "markdownlint"],
-			"sh": "shellcheck",
-			"elixir": ["mix_credo", "mix_credo_compile"],
-			"eelixir": ["mix_credo", "mix_credo_compile"],
-			"php": ["phpstan", "psalm"]
-		},
-		"diagnostic-languageserver.formatFiletypes": {
-			"elixir": "mix_format",
-			"eelixir": "mix_format"
-		},
-		"languageserver": {
-			"lua": {
-				"command": "lua-lsp",
-				"filetypes": ["lua"]
-			},
-			"swift": {
-				"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
-				"args": [],
-				"filetypes": ["swift"],
-				"initializationOptions": {},
-				"settings": {}
-			},
-			"golang": {
-				"command": "gopls",
-				"rootPatterns": ["go.mod"],
-				"filetypes": ["go"],
-				"initializationOptions": {
-					"gocodeCompletionEnabled": true,
-					"diagnosticsEnabled": true,
-					"lintTool": "golint"
-				}
-			},
-			"bash": {
-				"command": "bash-language-server",
-				"args": ["start"],
-				"filetypes": ["sh"],
-				"ignoredRootPaths": []
-			}
-		}
-	}
-81418378d8af17f9130500b7cca33d40|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"command": "lua-lsp",
-3bfb41841ee6599bf040f5f0b2a507ac|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"filetypes": ["lua"]
-60a43d5f8f12d4adf9920baf99db9919|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-			},
-b58c1bd08404917d2e31f25222a153ad|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-			"swift": {
-6080ffcfaf18b09d5fa1cde018363e5c|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
-aed79f343a93ec80615313c3eb7185df|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"args": [],
-c5e485a7a468da3b8e5cccd2a7b38b68|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"filetypes": ["swift"],
-1cfe49ac63a78674b35e2cc316c86ca3|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"initializationOptions": {},
-36a60e6e6151986343e0298a5a26055e|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"settings": {}
-125ceed443bfd3c889ff4740cdaff939|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-			"golang": {
-55110cd3d09b5d71cb366cb05e6b6591|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"command": "gopls",
-0f820f2aded17ccf509a6a65483f3551|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"rootPatterns": ["go.mod"],
-04b3d1c625f744c89a9fe616c53faece|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-				"filetypes": ["go"],
-495c026d065ba5cf1956c51fb52cd7fc|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-					"gocodeCompletionEnabled": true,
-bdac070078c9072fb9fe367aa0dd8338|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-					"diagnosticsEnabled": true,
-150707a1c749d9e49653c1cc905783c8|file:///home/peter/.config/nvim/coc-settings.json|191|1|V|json
-					"lintTool": "golint"
-be01dd6eea660bb245350c149fe123cd|file:///home/peter/.config/nvim/init.vim|66|7|v|vim
-	theniceboy
-5ab491cb14aa390ca4ebc2670ddc7eb0|file:///home/peter/.config/nvim/init.vim|66|11|V|vim
-	Plug 'honza/vim-snippets'
-007a8605aab2a5d54711343b7dd00445|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|443|1|V|snippets
-				<title>${1:`substitute(vim_snippets#Filename('', 'Page Title'), '^.', '\u&', '')`}</title>
 f6e888e482e2886feb72698fb3b0c9b7|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|457|1|V|snippets
 				<title>Document</title>
 0945359809dad1fbf3dea1c95a0da951|file:///home/peter/.config/nvim/plugged/vim-snippets/snippets/html.snippets|457|11|v|snippets
@@ -366,3 +73,1133 @@ f393f3f5e496869a15bc72cbfd56f541|file:///home/peter/Documents/c%2B%2B/zoo.cpp|2|
 	alias phone=scrcpy
 41e42bfe22110aa2cd4fb7a2ffbeb332|file:///home/peter/.zshrc|118|1|V|zsh
 	  setsid /home/peter/scripts/proxy.sh >> /home/peter/Public/clash/clash.log &;export http_proxy=http://127.0.0.1:7890/
+ae0261ccdcd58cf4ebd81ce9a4fe3fc8|file:///home/peter/.ssh/id_rsa.pub|1|1|V|
+	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDN1IfTbZEYrEMYAJtZOklrNWg5m/s10TCw58UrObxZlzpEW22RUNp1A89zy255D6/+ol+VIJdAmNDFsVMS5EkH1XIria1WPWgSIth6hvzJBQz3onah1q7vcwEmrGhzYHIsHNZAKyPEMnsKs2GjT5+WbTUbl2L5LPhTZbMaRuDV8DFXQitcFLM8rZmQEPeTP5JnBcRDgtMSMCjeBK/OZSHlvEG5wOXH/2IqGMgMRXpqHddHSAeAewDTABP5iUr4pVYuJQxGTmhWB04GYLosnyzeRCW++G7Tbib8mBJ+SorZF8RPtU/47t5WWtH69PxhTOaxeB3bgbzsMklO9ebSqQqbwfcKPTfpBf0OxjP462za1CkNm5Sep5J23NrLpASEk7NLhhACkn2RDGK7ha4UuIq7CXoDMAnxg+uZxR4MozeQE4oAX39yGg5yh7S0vu9HJnF/ugsV4z7IWkNVfa7TsLv/p0RivK83sYAgnvYMVQhRcfY5iWjY8LlIFpoH10ADfME= abc1870819884@gmail.com
+eb0a191797624dd3a48fa681d3061212|file:///home/peter/Documents/blog/_config.yml|108|11|v|yaml
+	master
+597b1becf7ca6062821f41c1f1861378|file:///home/peter/Documents/blog/_config.yml|107|34|v|yaml
+	godweiyang
+992763c3260eacff8cdc4c8bba147554|file:///home/peter/Documents/blog/_config.yml|101|8|v|yaml
+	landscape
+c00d1eb68b529768ba98c975c76a9b66|file:///home/peter/Documents/blog/_config.yml|6|8|v|yaml
+	Hexo
+a72eeb10998c9132f94421edbeaa93d7|file:///home/peter/Documents/blog/_config.yml|10|12|v|yaml
+	Jing
+02fa8ed06fbcebe219265bf89f7ab8b4|file:///home/peter/Documents/blog/source/contact/index.md|7|3|V|markdown
+	title: contact
+1fe0acd15425693e8654a0b438807c23|file:///home/peter/Documents/blog/source/contact/index.md|7|3|V|markdown
+	date: 2020-12-25 02:42:30
+3e191ccb20a680c337ae6834e485ac46|file:///home/peter/.ssh/id_rsa.pub|1|1|V|
+	ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCg1ceVKD6S0UkyG+wh4iOiTfMJ8b1RvuddZeIwpmz3pgvKmj/Zn0Gb4RY4GdeLz7ujgpWTbGt2/90YScv4RudD6CslL1AIT20moFsh/uI5eflq0Fxnmcyr4Gm6gUXgdzj03zSCrDblZB/1WHL4lSxESNQ2+Q0UVOrkX27k82xF0erix3dnjxj+XsjyNaHXIuUqQ3m0V5UOh31BKKu4AB1FtNhVLkO7/A7kQttq4advCWB0mXxp21Fjk5XoEQEDqkVfz+NLFprALe8Dk5z/iPanTk7wtYojP6Ywf4+xo/p0D8NsiAZlh1ftvhN5mW+ju696f3/PMGrEhl9ZwstugE7ZgLe7YJeVlzLuAbyq/m6D4Kkc2vuY3OsMI2emnxxIU3WPasCmoEhNJEjm/VgP3+yKOGh1fpVH+TlcujutWEKGN4uy/2qocoFUnDvJHD9DspEyTZhncYTaufoO+izKhLq4MLJXQ5CCkg7nQCDSewKMsuazJqcAAPKo2CpD4LNg2Is= abc1870819884@gmail.com
+28b3fbab7085517f615b7a51bac2ce4e|file:///home/peter/Documents/blog/_config.yml|106|10|V|yaml
+	  type: ''
+467909548175f8dd24c1912ee2f937dc|file:///home/peter/Documents/blog/_config.yml|105|7|V|yaml
+	deploy:
+f92bb8cd1c49f7f12ab1c1b6bf0dd6f0|file:///home/peter/Documents/blog/_config.yml|107|59|v|yaml
+	t@gi
+55d55d73fec83af021a1c243ccdd3d4f|file:///home/peter/Documents/blog/_config.yml|107|59|v|yaml
+	tee.com:kris-kk/kris-kk.gi
+95eb3f73f4e3598d7a7eaa35670bac1a|file:///home/peter/Documents/blog/_config.yml|107|59|v|yaml
+	tee.io.gi
+ab7c6a55f14a835a170fff4d7454e797|file:///home/peter/Documents/blog/_config.yml|11|22|v|yaml
+	matery
+7a1f2f90002e8e9ad42f051ec43bc8b7|file:///home/peter/Documents/blog/source/categories/index.md|4|3|V|markdown
+	title: categories
+86e3f37a8f8a6029f33718d572d1644f|file:///home/peter/Documents/blog/source/categories/index.md|4|3|V|markdown
+	date: 2018-09-30 17:25:30
+0e14afa9970d20e8893306d1b1ce08dc|file:///home/peter/Documents/blog/source/tags/index.md|4|3|V|markdown
+	title: tags
+c01b593bb4378d2b0063263b8ea5891b|file:///home/peter/Documents/blog/source/tags/index.md|4|3|V|markdown
+	date: 2018-09-30 18:23:38
+5f1cd4100efd7e28ac865c9855cec651|file:///home/peter/Documents/blog/source/friends/index.md|4|3|V|markdown
+	title: friends
+010ea6f9b94708dc48c2c345f1d40984|file:///home/peter/Documents/blog/source/friends/index.md|4|3|V|markdown
+	date: 2018-12-12 21:25:30
+410b2e9cfff3bfce8980ef9241ba8b26|file:///home/peter/Documents/blog/source/404/index.md|4|3|V|markdown
+	title: 404
+350699aa8aab1eeffae486fb4e70ea57|file:///home/peter/Documents/blog/_config.yml|47|10|V|yaml
+	highlight:
+e5a163bbc8c94d1149c894cdc9731448|file:///home/peter/Documents/blog/_config.yml|47|14|V|yaml
+	  enable: true
+96b48540db6c91a0a1c856bde642b813|file:///home/peter/Documents/blog/_config.yml|47|14|V|yaml
+	  line_number: true
+283144975223596c0dd15ebb9df97410|file:///home/peter/Documents/blog/_config.yml|47|14|V|yaml
+	  auto_detect: false
+0a91496defe5714f1c0f09f192261b3f|file:///home/peter/Documents/blog/_config.yml|47|14|V|yaml
+	  tab_replace: ''
+89c8c3c2479c56eddb639eaad36b7648|file:///home/peter/Documents/blog/_config.yml|47|12|V|yaml
+	  wrap: true
+b35852f243f00856866527a0a05dd58d|file:///home/peter/Documents/blog/_config.yml|47|12|V|yaml
+	  hljs: false
+4f61698a23397cef17a2ef1b0a33e287|file:///home/peter/Documents/blog/_config.yml|47|8|V|yaml
+	prismjs:
+8546057e069c2b29f60e2a4f41374f81|file:///home/peter/Documents/blog/_config.yml|47|8|V|yaml
+	  enable: false
+7fec83a72e9268fe5a447701ca890d50|file:///home/peter/Documents/blog/_config.yml|47|8|V|yaml
+	  preprocess: true
+7ef222efa3a6202e2904bebc865b63d7|file:///home/peter/Documents/blog/_config.yml|113|76|V|yaml
+	本文章著作权归作者所有，任何形式的转载都请注明出处。
+38894a1544041edc5ecf9e0149013941|file:///home/peter/Documents/blog/_config.yml|112|53|V|yaml
+	链接: https://godweiyang.com/2018/04/13/hexo-blog/#toc-heading-22
+449cc705a32bb94e0b4c9d9e58628140|file:///home/peter/Documents/blog/_config.yml|111|12|V|yaml
+	作者: 韦阳
+790c69c252526f9f4282d14b04d9f067|file:///home/peter/Documents/blog/_config.yml|110|12|V|yaml
+	来源: 韦阳的博客
+b92eb3e481dec6a7dffa79f4792d709a|file:///home/peter/Documents/blog/_config.yml|109|9|V|yaml
+	live2d: enable: true scriptFrom: local pluginRootPath: live2dw/ pluginJsPath: lib/ pluginModelPath: assets/ tagMode: false log: false model: use: live2d-widget-model-shizuku display: position: right width: 150 height: 300 mobile: show: true react: opacity: 0.7
+2ed614db66d6738dfde9a494c74e09a8|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  scriptFrom: local
+47a01236693a8d59d4ccc41ce461232a|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  pluginRootPath: live2dw/
+291ce306cc0b22a4510d20fc152ed1be|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  pluginJsPath: lib/
+4cd7a45198e25fa5ff8d575adfc471be|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  pluginModelPath: assets/
+3180a9f9659387337d06fd1910809c39|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  tagMode: false
+fe94a6f6e9e4d62a912a112090cc60ac|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  log: false
+45fd05ff002ded1f61c63c118d4fd1e6|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  model:
+ba56d3d6b86e4eb970638f19b983fea5|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	    use: live2d-widget-model-shizuku
+5183cf402667522e70fcd33ba00c50ac|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  display:
+49ecfb4d88779f2f2802036a7e765c8a|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	    position: right
+1c6298503d246b468a3584d0d6328875|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	    width: 150
+2f080b87c092a6450cf7d06ceb74a741|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	    height: 300
+470af5efbc1681d4d579cf9e777fdb23|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  mobile:
+00916f77d3ce5abb0a2e06577b7e2b7a|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	    show: true
+e5b39b2d1bbee0c0c68adc29748d256a|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	  react:
+f1d41db344d83e8872af151191f1a3e6|file:///home/peter/Documents/blog/_config.yml|112|5|V|yaml
+	    opacity: 0.7
+82c59cdbe959c1329e2e2366c9fbd7be|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/autoload.js|36|1|V|javascript
+				cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
+8b5a11cd0305af1aa63efca2c5c3725d|file:///home/peter/Documents/Arch%20Linux%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|1|1|V|markdown
+	# Arch Linux安装日记
+	
+	## 1. 制作Arch启动U盘
+	
+	1. 下载最新的ArchISO安装包[（清华源）](https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/)和rufus[（官网）](https://github.com/pbatard/rufus/releases/download/v3.5/rufus-3.5p.exe)
+	
+	2. 校验文件完整性
+	
+	3. 写入ISO文件
+	
+	## 安装Arch
+	
+	1. 选择UEFI启动，U盘优先级第一
+	
+	2. 设置字体便于观看
+	
+	   ```
+	   setfont /usr/share/kbd/consolefonts/LatGrkCyr-12x22.psfu.gz
+	   ```
+	
+	3. Esc 与 Caps_Lock 对调
+	```
+	vim loadkeys.conf
+	keycode 1 = Caps_Lock
+	keycode 58 = Escape
+	loadkeys keys.conf
+	```
+	4. 配置vim
+	```
+	vim .vimrc
+	set number
+	syntax on
+	noremap H 5h
+	noremap J 5j
+	noremap K 5k
+	noremap L 5l
+	noremap S :w<CR>
+	noremap Q :q<CR>
+	```
+	5. 检查网络
+	```
+	ping baidu.com
+	```
+	6. 设置时间
+	```
+	timedatectl set-ntp true
+	```
+	7. 分区
+	```
+	fdisk -l
+	fdisk /dev/sda   (sda改为你的系统安装磁盘，这里是sda)
+	p			(查看当前磁盘分区)
+	n			(新建引导分区)
+	2
+	<Enter>
+	+512M<Enter>（若有选择，选择y后回车）
+	n	      		(新建swap分区)
+	4
+	<Enter>
+	+512M<Enter>（若有选择，选择y后回车）
+	n			 (新建主分区)
+	<Enter>
+	<Enter>
+	<Enter>		（若有选择，选择y后回车）
+	p			(确认分区是否正确)
+	w			(保存修改，写入磁盘)
+	mkfs.fat -F32 引导分区
+	mkfs.ext4 主分区
+	mkswap 缓存分区
+	swapon 缓存分区
+	```
+	8. 配置pacman源
+	
+	
+	
+	```vim /etc/pacman.conf```
+	找到color一行，去掉前面的#，末尾添加archlinuxcn源
+	
+	```
+	[archlinuxcn]
+	Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+	```
+	保存
+	找到[core]一行，光标移到下一行的路径上面，gf编辑该文件
+	将这一行添加到注释的下第一行
+	```Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch```
+	保存，更新源
+	```sudo pacman -Syy```
+	9. 映射分区目录
+	```
+	mount 主分区位置 /mnt
+	mkdir /mnt/boot
+	mount 引导分区 /mnt/boot
+	```
+	10. 安装linux系统
+	```
+	pacstrap /mnt base linux linux-firmware
+	genfstab -U /mnt >> /mnt /etc/fstab
+	```
+	11. 切换用户
+	```
+	arch-chroot /mnt
+	```
+	12. 切换时区
+	```
+	ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+	```
+	S
+	   安装安装bla，bla，bla～
+	
+	#### 配置网络
+	
+	   systemctl enable dhcpcd
+	
+	## 安装软件
+	
+	#### 用户登录界面
+	
+	```
+	sudo pacman -S sddm
+	yay -S archlinux-themes-sddm
+	vim /usr/lib/sddm/sddm.conf.d/default.conf
+	Numlock=on
+	Current=archlinux-simplyblack
+	```
+	
+	#### 字体
+	
+	[noto]sudo pacman -S noto-fonts
+	
+	[更纱黑体] [（官方下载）](https://github.com/be5invis/Sarasa-Gothic/releases/tag/v0.12.13)
+	
+	/usr/share/fonts/Sarasa
+	
+	#### 配置zsh
+	```shell
+	su
+	chsh -s /bin/zsh
+	```
+	在~/.bashrc末尾添加：
+	```
+	[[ $- == *i* ]] && $(command -v zsh) || echo "ZSH is not installed"
+	```
+	
+	
+	```
+	alias c=clear
+	alias s="neofetch --color_blocks off"
+	alias ra=ranger
+	alias vim=nvim
+	alias coderain=cmatrix
+	alias train=sl
+	alias lg=lazygit
+	alias phone=scrcpy
+	alias proxy="export http_proxy=127.0.0.1:1080;export https_proxy=127.0.0.1:1080"
+	alias unproxy="unset http_proxy;unset https_proxy"
+	```
+	
+	
+	#### 自动挂载外部存储
+	
+	```
+	sudo pacman -S udisks
+	sudo pacman -S udevil
+	systemctl enable devmon@root.service
+	```
+	
+	#### Android手机投屏
+	
+	```
+	sudo pacman -S scrcpy
+	su
+	cd /usr/bin
+	chown root:root adb
+	chmod u+s adb
+	adb kill-server
+	adb start-server
+	```
+	
+	
+	
+	剪贴板工具:xsel
+	
+	7z解压:p7zip
+	
+	音视频播放器:smplayer
+	
+	火车动画:sl
+	
+	打印系统信息:neofetch
+	
+	## Arch的备份还原
+	#### 备份
+	```
+	sudo pacman -S pigz
+	sudo tar --use-compress-program=pigz -cvpf arch-backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/arch-backup.tgz --exclude=/mnt --exclude=/sys --exclude=/run/media /
+	```
+	#### 还原
+	首先需要准备一个能够引导的liveCD的U盘
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-94b3fdd5fb211d00.jpg)
+	![](https://upload-images.jianshu.io/upload_images/3850843-48e315b93bcbc63e.jpg)
+	
+	进入liveCD之后 先用wifi-menu联网，因为liveCD上没有pigz，如果不想解压恢复的时候用半年的话就联网装上再解压吧
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-483b9bce570a5504.jpg)
+	
+	Ping一下百度看看是否联网成功，之后简单配置下源 就可以安装pigz了
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-6f774f181b7a1ebd.jpg)
+	![](https://upload-images.jianshu.io/upload_images/3850843-5909ff3be61b6da8.jpg)
+	
+	sudo nano /etc/pacman.d/mirrorlist 配置源
+	安装pigz
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-e01ffd27ac4a7d07.jpg)
+	
+	要用到的pigz准备好之后就可以挂载磁盘 进行恢复了。
+	lsblk简单看下各个分区情况
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-3fc172541078bf0e.jpg)
+	
+	我这里sdc1是boot分区 sdc2是/分区 sdb3是保存备份的分区
+	直接新建了一个目录挂载 sdb3
+	mkdir /f
+	mount /dev/sdb3 /f
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-d640776efa6b20d7.jpg)
+	
+	然后挂载 目标linux根分区到/mnt目录， 我的arch只分了 boot和/分区，并且备份的时候 忘记排除boot目录了，所以这里索性都挂载上干掉。挂载之后如图
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-76b4cec8ca8648aa.jpg)
+	
+	现在就可以干掉已经损坏的系统了
+	```
+	rm -rf /mnt/*
+	```
+	命令很危险，一定要看清楚，想清楚了之后再执行，我真是怕小手一抖就把不想干掉的分区干掉了
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-cefdee695a6a57b3.jpg)
+	
+	boot目录因为是分区挂载点提示设备忙，这个目录并没有被删掉，不过ls一下可以看见/mnt下只剩boot目录，/mnt/boot下所有的引导文件也都没有了
+	
+	万事俱备，下面进行解压恢复 还是使用pigz进行多线程解压
+	```
+	tar --use-compress-program=pigz -xvpf /f/sysbackup/arch-backup-20160331.tgz -C /mnt
+	```
+	这里自行把备份路径替换掉。接下来就是解压过程如图：
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-f0a18130f9589292.jpg)
+	![](https://upload-images.jianshu.io/upload_images/3850843-8f921e51ac75ea28.jpg)
+	
+	用不了多久 也就2-3分钟 解压完成！(ssd)
+	ls看看 干掉的文件是不是都回来了呢
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-30b30a8300fa302e.jpg)
+	
+	OK，問題ない！
+	到这里，恢复工作已经接近尾声，还记得备份的时候排除掉的目录么，重建排除的目录
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-6c6a3675ad89e71a.jpg)
+	
+	然后直接reboot重启
+	前面干掉了 / 分区所有文件真的 大丈夫？
+	
+	![](https://upload-images.jianshu.io/upload_images/3850843-1c00569cbda87279.jpg)
+	
+	因为我之前把boot一起干掉了，所以看到这里就表面恢复成功了！
+	所有备份恢复工作全部完成！
+	总结起来，主要是利用了 pigz 的多线程提高 压缩解压的效率，比普通的gzip或者bzip2快很多！缺点还是比较明显，就是备份的包个头略大，不知道怎么能够再小点
+	而且我只涉及了本机恢复，如果恢复到其他机子，还涉及到fstab修改之类的一些收尾工作。
+	抛砖引玉，如果有其他好的方法 欢迎交流！
+	
+	```
+	
+	```
+9e57244f58d7b6548c6e1e7eb709091e|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|29|1|V|javascript
+					<span class="fa fa-lg fa-info-circle"></span>
+0f42d1f8203a5ec37bea80280e5789cf|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|25|1|V|javascript
+					<span class="fa fa-lg fa-paper-plane"></span>
+ebdec72faf80cafb2f3123c92719ab35|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|24|1|V|javascript
+					<span class="fa fa-lg fa-comment"></span>
+34a82d5d7faa41bbe62691dc2990a66b|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|25|1|V|javascript
+					<span class="fa fa-lg fa-user-circle"></span>
+8dbbeef6b7f71974162b68a2668af800|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|34|43|V|javascript
+					<span class="fa fa-lg fa-street-view"></span>
+c555d56a2630e3fd0908a6b0c4d7e0e6|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|34|43|V|javascript
+					<span class="fa fa-lg fa-camera-retro"></span>
+ad101d8e256bdf98c77ee52a69347864|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|34|43|V|javascript
+					<span class="fa fa-lg fa-times"></span>
+d796c59e47fde0f0b5de30b3b89f700c|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	#### 还原
+e2d104e659a57b8ac5733a6ca7c8c674|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	首先需要准备一个能够引导的liveCD的U盘
+424dcd3909648a58065a40193886df18|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-94b3fdd5fb211d00.jpg)
+8eb86f4fea200a504a17eabde153d79b|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-48e315b93bcbc63e.jpg)
+5ac7c5ec94237d0eb78f9b1771eaf203|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	进入liveCD之后 先用wifi-menu联网，因为liveCD上没有pigz，如果不想解压恢复的时候用半年的话就联网装上再解压吧
+0fc119a94ce3854e842c55d2fc0e5823|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-483b9bce570a5504.jpg)
+f8ff0a7661e3d18bb17c3e52c8da1a14|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	Ping一下百度看看是否联网成功，之后简单配置下源 就可以安装pigz了
+528811a60ab0ff0fb3cb3652b97e25be|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-6f774f181b7a1ebd.jpg)
+7ddd12a879e805872aa4d426b4ad958b|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-5909ff3be61b6da8.jpg)
+9b721b05073bf0745b804fd6171cf893|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	sudo nano /etc/pacman.d/mirrorlist 配置源
+9a3e0328ff1ec459c8817ed83e08bf03|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	安装pigz
+79b64993b1f691a1ab0ec241bec63eb8|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-e01ffd27ac4a7d07.jpg)
+b87c5f9ccb12aa43f8399a3c35782139|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	要用到的pigz准备好之后就可以挂载磁盘 进行恢复了。
+04bac0c6550a18de0f0cc28f13245496|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	lsblk简单看下各个分区情况
+6489fda13494121a6bc354a1c75e4116|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-3fc172541078bf0e.jpg)
+6b040305c101b58c4e231c33b6a7b28d|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	我这里sdc1是boot分区 sdc2是/分区 sdb3是保存备份的分区
+8e152b80eec10342572fd8583da21282|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	直接新建了一个目录挂载 sdb3
+453a446597162f1143d98a1c700d8094|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	mkdir /f
+692aaf4f97692e68be78a88a710a4647|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	mount /dev/sdb3 /f
+07f5db134b53dba03a040ac6738a66a9|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-d640776efa6b20d7.jpg)
+5001a9bb5c33194b4a45d07f79c71809|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	然后挂载 目标linux根分区到/mnt目录， 我的arch只分了 boot和/分区，并且备份的时候 忘记排除boot目录了，所以这里索性都挂载上干掉。挂载之后如图
+fe4606ff022a3df8b817bd8c3c8b298e|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-76b4cec8ca8648aa.jpg)
+ffafaa232edfb28a4f4563fdf0f70f3a|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	现在就可以干掉已经损坏的系统了
+91e89033f9cc96d7b86c32185dbdd5db|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	rm -rf /mnt/*
+da86e8e795335ebe103801aaeea1d08e|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	命令很危险，一定要看清楚，想清楚了之后再执行，我真是怕小手一抖就把不想干掉的分区干掉了
+fc9de0afc5d0ea4d7655811e9c7d6ca2|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-cefdee695a6a57b3.jpg)
+60c8ee6354e3e7a89498c6622953f2c7|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	boot目录因为是分区挂载点提示设备忙，这个目录并没有被删掉，不过ls一下可以看见/mnt下只剩boot目录，/mnt/boot下所有的引导文件也都没有了
+fd44e8456e6870ad9e5b81efceb1294b|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	万事俱备，下面进行解压恢复 还是使用pigz进行多线程解压
+edde8420a0b4220ae6a3b8cc3a165cb9|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	tar --use-compress-program=pigz -xvpf /f/sysbackup/arch-backup-20160331.tgz -C /mnt
+71dec419f2de4da5dcaf345daba8ed6b|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	这里自行把备份路径替换掉。接下来就是解压过程如图：
+dd51e49b94191c66597d8199e2badcd5|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-f0a18130f9589292.jpg)
+4824ec2ede0e12a39cce3ab1ad173a4b|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-8f921e51ac75ea28.jpg)
+6b0c95111bbefa4fc4b13716935336ea|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	用不了多久 也就2-3分钟 解压完成！(ssd)
+dab020f71d9e77d79e8e0b6d5f3a777e|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	ls看看 干掉的文件是不是都回来了呢
+40504631e1f7e6c03f6692935bbcd4ee|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-30b30a8300fa302e.jpg)
+89054096e0338f99deb1b996b4e780bb|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	OK，問題ない！
+9bcc9c6a9d6b2b78ed0639b3e63538c0|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	到这里，恢复工作已经接近尾声，还记得备份的时候排除掉的目录么，重建排除的目录
+f2edc6759cfd326a84a04d9223d4e069|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-6c6a3675ad89e71a.jpg)
+67b2839fdc308edbe60ed1d626cc11df|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	然后直接reboot重启
+658a94d70bc577eb3567043dac76a768|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	前面干掉了 / 分区所有文件真的 大丈夫？
+6e984dba2f02eefdda09d68e514927cd|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	![](https://upload-images.jianshu.io/upload_images/3850843-1c00569cbda87279.jpg)
+4b0d1b31f815ad6dda52e567f233e52e|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	因为我之前把boot一起干掉了，所以看到这里就表面恢复成功了！
+8613416713dc5a8f255b76082b1afab3|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	所有备份恢复工作全部完成！
+4deaa09e386590037a51797836a388a7|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	总结起来，主要是利用了 pigz 的多线程提高 压缩解压的效率，比普通的gzip或者bzip2快很多！缺点还是比较明显，就是备份的包个头略大，不知道怎么能够再小点
+ee61800540883ebcd6e87a287bc1b0d4|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	而且我只涉及了本机恢复，如果恢复到其他机子，还涉及到fstab修改之类的一些收尾工作。
+8ff9a8dab5696e8499e20d7a8052cc9a|file:///home/peter/Documents/blog/source/_posts/Arch%E5%AE%89%E8%A3%85%E6%97%A5%E8%AE%B0.md|203|1|V|markdown
+	抛砖引玉，如果有其他好的方法 欢迎交流！
+478a765797cb5046eb9c2eba004cebcb|file:///home/peter/Documents/blog/public/index.html|237|41|v|html
+	blinkfox
+1386e91b662009f0ba7b40b625602fce|file:///home/peter/Documents/blog/themes/hexo-theme-matery/_config.yml|139|7|v|yaml
+	1181062873
+b326b5062b2f0e69046810717534cb09|file:///home/peter/Documents/blog/themes/hexo-theme-matery/_config.yml|142|8|v|yaml
+	true
+175322bd4f60d04fc904f1243308466c|file:///home/peter/Documents/blog/themes/hexo-theme-matery/_config.yml|135|12|v|yaml
+	https://github.com/ybygjylj
+51149e4c31042e942fb0e9abadd250b2|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|27|1|V|javascript
+	 				<span class="fa fa-lg fa-comment"></span>
+					<span class="fa fa-lg fa-paper-plane"></span>
+					<span class="fa fa-lg fa-user-circle"></span>
+					<span class="fa fa-lg fa-street-view"></span>
+					<span class="fa fa-lg fa-camera-retro"></span>
+					<span class="fa fa-lg fa-info-circle"></span>
+					<span class="fa fa-lg fa-times"></span>
+29065a068e814760322a225745d840f3|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|27|6|V|javascript
+	 				<span class="fa fa-lg fa-comment"></span>
+e0c07b0bdf02b3ef7945dd7400453b3b|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|27|1|V|javascript
+					<span class="fa fa-lg fa-paper-plane"></span>
+					<span class="fa fa-lg fa-user-circle"></span>
+					<span class="fa fa-lg fa-street-view"></span>
+					<span class="fa fa-lg fa-camera-retro"></span>
+					<span class="fa fa-lg fa-info-circle"></span>
+					<span class="fa fa-lg fa-times"></span>
+75ed6d9d754fa5af870abb5756b9ba31|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|27|6|V|javascript
+	 				--<span class="fa fa-lg fa-comment"></span>
+9eefed63b51fa50267bff40bff0d16a3|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|29|18|v|javascript
+	fa fa-lg fa-user-circle
+5c1981d084d5cd39abfe04024d1fdfce|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|32|18|v|javascript
+	fa fa-lg fa-info-circle
+d61e4ce1566534812fcc00b97690cb33|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|28|6|V|javascript
+	 				<span class=""></span>
+f12aca9a98e82250243801471d659b1e|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|28|5|V|javascript
+					<span class=""></span>
+f17636887d67999eeb8e22906b317749|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/waifu-tips.js|27|11|v|javascript
+	 style="display:none"
+dca4ee8000838191e4c5d64fd1b8a6a9|file:///home/peter/Documents/blog/themes/hexo-theme-matery/layout/_partial/social-link.ejs|1|1|V|mason
+	<% if (theme.socialLink.github) { %>
+	    <a href="<%= theme.socialLink.github %>" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+	        <i class="fab fa-github"></i>
+	    </a>
+	<% } %>
+bf215181b5140522137b3d4f6b73544a|file:///home/peter/Documents/blog/themes/hexo-theme-matery/layout/_partial/social-link.ejs|7|25|v|mason
+	github
+d3b7c913cd04ebfec0e9ec32cb6fd58c|file:///home/peter/Documents/blog/themes/hexo-theme-matery/layout/_partial/social-link.ejs|8|106|v|mason
+	GitHub
+fb4c666e70da925eedf48feb30916272|file:///home/peter/Documents/blog/themes/hexo-theme-matery/_config.yml|135|1|V|yaml
+	  github:  https://github.com/ybygjylj
+c21f969b5f03d33d43e04f8f136e7682|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d_api/model/Potion-Maker/Pio/index.json|5|19|v|json
+	default
+7195a78df02129539900fa9cfad498aa|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/demo/login.html|179|17|v|html
+	https://live2d.fghrsh.net/api
+5daa22750fa4a2c8576c499bffacdb2a|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d_api/README.md|164|4|v|markdown
+	/get/?id=1-23
+eb487ed91d0bb1fa5d25506d247e7b3f|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d_api/model/Potion-Maker/Pio/textures.cache|2|1|V|
+	["textures/animal-costume-racoon.png","textures/animal-costume.png","textures/bunny-girl-costume-red.png","textures/bunny-girl-costume.png","textures/cake-costume-choco.png","textures/cake-costume-cream.png","textures/default-costume.png","textures/dress-costume-brown.png","textures/dress-costume.png","textures/elementary-school-costume-navy.png","textures/elementary-school-costume.png","textures/fall-dress-costume-beige.png","textures/fall-dress-costume-brown.png","textures/frill-bikini-costume-green.png","textures/frill-bikini-costume-purple.png","textures/frill-blouse-costume-green.png","textures/frill-blouse-costume-red.png","textures/furisode-costume.png","textures/halloween-costume.png","textures/hanbok-costume-pink.png","textures/hanbok-costume-red.png","textures/hanbok-costume-skyblue.png","textures/hanbok-costume-yellow.png","textures/hanbok-costume.png","textures/healer-costume.png","textures/kids-costume-navy.png","textures/kids-costume.png","textures/maid-costume-red.png","textures/maid-costume.png","textures/new2015-costume-pajamas.png","textures/new2015-costume.png","textures/night-witch-costume-black.png","textures/night-witch-costume-gray.png","textures/nightsky-costume.png","textures/overalls-costume-white.png","textures/overalls-costume.png","textures/pajamas-costume-pink.png","textures/pajamas-costume.png","textures/party-dress-costume-brown.png","textures/party-dress-costume-purple.png","textures/qipao-costume-pink.png","textures/qipao-costume-red.png","textures/ribbon-dress-costume-red.png","textures/ribbon-dress-costume-yellow.png","textures/sailor-costume-black.png","textures/sailor-costume.png","textures/sakura-costume-navy.png","textures/sakura-costume.png","textures/santa-costume-green.png","textures/santa-costume.png","textures/sarori-costume.png","textures/school-2017-costume-gray.png","textures/school-2017-costume-yellow.png","textures/school-costume-red.png","textures/school-costume.png","textures/sfc-uniform-costume-red.png","textures/sfc-uniform-costume-yellow.png","textures/shaman-costume-black.png","textures/shaman-costume-blue.png","textures/sinsiroad-shop-costume-junior.png","textures/sinsiroad-shop-costume-senior.png","textures/sorceress-costume.png","textures/sporty-hood-costume-black.png","textures/sporty-hood-costume-blue.png","textures/star-witch-costume-brown.png","textures/star-witch-costume.png","textures/succubus-costume-black.png","textures/succubus-costume-red.png","textures/sukumizu-costume-white.png","textures/sukumizu-costume.png","textures/summer-dress-costume-blue.png","textures/summer-dress-costume-white.png","textures/swimsuit-2017-costume-navy.png","textures/swimsuit-2017-costume-red.png","textures/tirami1-costume.png","textures/turtleneck-costume-red.png","textures/turtleneck-costume.png","textures/valentine-costume-brown.png","textures/valentine-costume-pink.png","textures/winter-coat-2017-costume-brown.png","textures/winter-coat-2017-costume-white.png","textures/winter-coat-costume-pink.png","textures/winter-coat-costume-white.png","textures/winter-costume-white.png","textures/winter-costume.png","textures/witch-costume-white.png","textures/witch-costume.png"]
+ccaaac957ec37bde4c9993a26a064730|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d_api/model/Potion-Maker/Pio/index.json|4|25|v|json
+	dress
+d0fc51da68da9d78d20c073c51be2dec|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d_api/model/Potion-Maker/Pio/index.json|4|25|v|json
+	defult
+e30d3ac3ff67fd98485bb68e7b78660a|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/autoload.js|37|1|V|javascript
+				cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
+b140a8bafdd75cc3d4014fe989d800ef|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/autoload.js|38|4|V|javascript
+				cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
+			});
+f90180ea325c6b6dead7d850c8fed1a2|file:///home/peter/live2d-widget/autoload.js|37|4|V|javascript
+				cdnPath: "/live2d_api/",
+4ea76a80b93e85d664f7862e53a85a93|file:///home/peter/Documents/blog/_config.yml|110|1|V|yaml
+	live2d:
+	  enable: true
+0462a8eefe7fcec43a883765462878bb|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/autoload.js|37|4|V|javascript
+				cdnPath: "https://api.zsq.im/live2d/",
+f19ea0ee6e40bf34e81eb8b7820d3bd1|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/autoload.js|37|1|V|javascript
+				apiPath: "https://api.zsq.im/live2d/",
+79846003819aec96c3b8d0a6a18e7c4c|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/autoload.js|38|4|V|javascript
+				//
+a7a2cddf9f2c329965b1639cc2a3d7d0|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7174|1|V|javascript
+						var t = r.modelHomeDir + r.modelSetting.getModelFile();
+4b3052a3ebcc8d103fb5ec4230a11f28|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7174|1|V|javascript
+						//var t = r.modelHomeDir + r.modelSetting.getModelFile();
+99289e6e04e16c6567ca3a6a3aa53d95|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7188|1|V|javascript
+													o = r.modelHomeDir + r.modelSetting.getExpressionFile(t);
+f539c915b0ebf8c578b269a3112b151d|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7196|1|V|javascript
+												? r.loadPhysics(r.modelHomeDir + r.modelSetting.getPhysicsFile())
+eea5c13e612cde2455ef83f484b1c9e7|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7200|1|V|javascript
+												? r.loadPose(r.modelHomeDir + r.modelSetting.getPoseFile(), function () {
+30bb05a250278fb74f9e7f3821003df8|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7200|25|v|javascript
+	r.modelHomeDir
+7786c2b27a71a52a54d2e572c330ddbc|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7181|1|V|javascript
+								else var o = r.modelHomeDir + r.modelSetting.getTextureFile(i);
+13ced2f8f86251e259abf005fade502f|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7257|1|V|javascript
+						this.loadMotion(r, this.modelHomeDir + r, function (r) {
+5ef4013dcab4fd4eca509aea830252c5|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7329|1|V|javascript
+						? this.loadMotion(null, this.modelHomeDir + r, function (r) {
+5a97bb0de6c880cd39ea1026fcadd33b|file:///home/peter/Documents/blog/themes/hexo-theme-matery/source/live2d-widget/live2d.min.js|7347|1|V|javascript
+						(s.src = this.modelHomeDir + n),
+e9775d4a0c0c26b02bf19a9f8625ea46|file:///home/peter/.local/share/fcitx5/rime/luna_pinyin.custom.yaml|35|1|V|yaml
+	    "/omega": ["Ω", "ω"]
+c6d6bd7ebf806f43c76acc3681703b81|file:///home/peter/.local/share/fcitx5/rime/luna_pinyin.custom.yaml|36|7|v|yaml
+	omega
+c17551dde40f72e2ad1d993a947d0d03|file:///home/peter/.local/share/fcitx5/rime/luna_pinyin.custom.yaml|36|15|V|yaml
+	    "/one": ["Ω", "ω"]
+ad2fcc70387e8d9f0829bd4ce4a98b95|file:///home/peter/Documents/%E6%94%BF%E6%B2%BB%E6%B0%B4%E8%80%83%E5%A4%8D%E4%B9%A0.md|1|1|V|markdown
+	# 必修一
+	
+	1. 我国的两大历史任务是什么？
+	
+	   > 争取民族独立、人民解放
+	   >
+	   > 实现国家富强、人民幸福
+	
+	2. 改革开放以来，党的全部理论和实践主题是什么？
+	
+	   > 全部理论：邓小平理论、”三个代表“重要思想、科学发展观、习近平新时代特色社会主义思想
+	   >
+	   > 实践主题：”走自己的道路，建设有中国特色的社会主义“
+	
+	3. 改革开放以来，我国取得的一切成绩和进步的根本原因是什么？
+	
+	   > 中国共产党带领全国人民，开辟了中国特色社会主义道路，形成了中国特色社会主义理论体系，确立了中国特色社会主义制度，发展了中国特色社会主义文化。
+	
+	4. 新时代我国社会的主要矛盾是什么？
+	
+	   > 人民日益增长的美好生活需要与不平衡不充分的发展之间的矛盾
+	
+	5. 近代以来，中华民族最伟大的梦想（中国梦）是什么？
+	
+	   > 总体：实现中华民族伟大复兴
+	   >
+	   > 具体：实现国家富强、民族振兴、人民幸福
+	
+	6. 中国共产党人的初心和使命是什么？
+	
+	   > 为中国人民谋幸福，为中华民族谋复兴。
+	   >
+	   > 实现伟大梦想，必须进行伟大斗争、建设伟大工程、推进伟大事业。
+	
+	7. 习近平的思想系统地回答了什么样的时代课题？
+	
+	   > 新时代坚持和发展什么样的中国特色社会主义、怎样坚持和发展中国特色社会主义这个重大时代课题
+	
+	# 必修二
+	
+	1. 我国的基本经济制度是什么？
+	
+	   > 公有制为主体，多种所有制共同发展
+	
+	2. 怎样建设现代市场体系？
+	
+	   > ①建立公平开放透明的市场规则
+	   >
+	   > ②完善主要由市场决定价格的机制
+	
+	3. 社会主义市场经济体制的基本特征是什么？
+	
+	   > ①坚持党的领导，发挥党总揽全局、协调各方的领导核心作用，是我国社会主义市场经济体制的一个重要特征
+	   >
+	   > ②公有制为主体，多种所有制共同发展的基本经济制度是社会主义经济体制的根基
+	   >
+	   > ③促进全体人民实现共同富裕是社会主义市场经济体制的根本目标
+	   >
+	   > ④科学的宏观调控、有效的政府治理，是社会主义市场经济体制优势的内在要求
+	
+	4. 宏观调控的主要目标是什么？
+	
+	   > 促进经济增长、增加就业、稳定物价、保持国际收支平衡
+	
+	5. 新发展理念的内涵是什么？
+	
+	   > ①创新发展注重的是解决发展动力问题
+	   >
+	   > ②协调发展注重的是解决发展不平衡问题
+	   >
+	   > ③绿色发展注重的是解决人与自然和谐共生的问题
+	   >
+	   > ④开放发展注重的是解决内外联动问题
+	   >
+	   > ⑤共享发展注重的是解决社会公平正义问题
+	
+	6. 我国的个人收入分配 制度是什么？
+	
+	   > 按劳分配为主体，多种分配方式并存
+	
+	7. 怎样完善我国社会保障体系？
+	
+	   > ①要公平对待每个公民并确保其享受相应的社会主义保障体系。
+	   >
+	   > ②既要尽力而为，也要量力而行。
+	   >
+	   > ③要做到权责明晰。
+	   >
+	   > ④要按照兜底线、织密网、见机制的要求，全面覆盖全民、城乡统筹、权责明晰、保障适度、可持续的多层次社会保障体系。
+	
+	# 必修三
+	
+	1. 近代中国的基本国情和主要矛盾是什么？
+	
+	   > 基本国情：半殖民地半封建社会
+	   >
+	   > 主要矛盾：帝国主义和中华民族的矛盾、封建主义和人民大众的矛盾
+	
+	2. 中国共产党的性质、根本立场、根本宗旨、执政理念是什么？
+	
+	   > 性质：中国共产党是中国工人阶级的先锋队，同时是中国人民和中华民族的先锋队
+	   >
+	   > 根本立场：人民立场
+	   >
+	   > 根本宗旨：全心全意为人民服务
+	   >
+	   > 执政理念：立党为公、执政为民
+	
+	3. 中国共产党的领导方式有哪些？
+	
+	   > 政治领导、思想领导、组织领导
+	
+	4. 中国共产党的执政方式有哪些？
+	
+	   > 科学执政、民主执政、依法执政
+	
+	5. 我国的国体、本质是什么？
+	
+	   > 国体：人民民主专政
+	   >
+	   > 本质：人民当家作主
+	
+	6. 人民代表大会的职权是什么？人大代表的职权是什么？
+	
+	   > 人民代表大会：立法权、决定权、任免权、监督权
+	   >
+	   > 人大代表：审议权、表决权、提案权、质询权
+	
+	7. 我国的政体是什么？
+	
+	   > 人民代表大会制度
+	
+	8. 我国的政党性质是什么？
+	
+	   > 中国共产党领导的多党合作和政治协商制度
+	
+	9. 我国处理民族政策的方针是什么 ?
+	
+	   > 民族平等、民族团结、各民族共同繁荣
+	
+	10. 全面依法治国的总目标和原则是什么？
+	
+	    > ①坚持中国共产党的领导
+	    >
+	    > ②坚持人民主体地位
+	    >
+	    > ③坚持法律面前人人平等
+	    >
+	    > ④坚持依法治国与以德治国相结合
+	    >
+	    > ⑤坚持从中国实际出发
+	
+	# 必修四
+	
+	1. 马克思主义哲学的基本特征是什么？
+	
+	   > ①第一次在科学的基础上实现了唯物主义与辩证法的有机结合
+	   >
+	   > ②实现了唯物辩证的自然观与历史观的统一
+	   >
+	   > ③实现了实践基础上的科学性和革命性的统一
+	
+	2. 物质意识辩证关系原理是什么？
+	
+	   > 一切从实际出发，实事求是
+	
+	3. 规律的客观性和普遍性原理是什么？
+	
+	   > 规律是客观的，是不以人的意志而转移的，既不能被创造，也不能被消灭。规律具有普遍性，自然界、人类社会和人的思维，其运动、变化和发展过程都有其固有的规律。
+	
+	4. 整体和部分的辩证关系原理是什么？
+	
+	   > ①整体与部分是相互区别的。
+	   >
+	   > ②整体与部分又是相互联系、密不可分的。
+	
+	5. 量变和质变的辩证关系原理是什么？
+	
+	   > ①事物的发展总是从量变开始，量变是质变的必要准备，量变达到一定程度必然引起质变，质变是量变的必然结果
+	   >
+	   > ②质变又为新的量变开辟道路，使事物在新质的基础上开始新的量变
+	   >
+	   > ③事物的发展就是这样从量变到质变，又在新质的基础上开始新的量变，如此循环往复，不断前进
+	
+	6. 矛盾的普遍性和特殊性的辩证关系是什么？
+	
+	   > ①矛盾的普遍性和特殊性相互联结。一方面，普遍性寓于特殊性之中，并通过特殊性表现出来，没有特殊性就没有普遍性。另一方面，特殊性离不开普遍性，世界上的事物无论怎样特殊，它总是和同类事物中的其他事物有共同之处，不包含普遍性的事物是没有的。
+	   > ②由于事物范围的极其广大和发展的无限性，在一定场合为普遍性的东西，在另一场合则是特殊性。反之，在一定场合是特殊性的东西，在另一场合则是普遍性。
+	
+	7. 为什么说实践是认识的基础？
+	
+	   > ①实践是认识的来源
+	   >
+	   > ②实践是认识发展的动力
+	   >
+	   > ③实践是检验认识的真理性的唯一标准
+	   >
+	   > ④实践是认识的目的
+	
+	8. 人民群众是历史的创造者，群众观点，群众路线以及方法论是什么？
+	
+	   > 我们党的群众观点的基本内容是:相信人民群众自己解放自己，全心全意为人民服务，一切向人民群众负责，虚心向人民群众学习
+	   >
+	   > 我们党的群众路线的基本内容是:一切为了群众，一切依靠群众，从群众中来，到群众中去。
+	   >
+	   > 方法论：发展中国特色社会主义，必须坚持以人民为中心，坚持人民主体地位。
+	
+	9. 怎样实现人生价值？
+	
+	   > ①弘扬劳动精神
+	   >
+	   > ②在个人与社会的统一中创造和实现价值
+	   >
+	   > ③在砥砺自我中创造和实现价值
+68934a3e9455fa72420237eb05902327|file:///home/peter/Documents/blog/_config.yml|44|20|v|yaml
+	false
+d15b9df9095eb544a93749a277a28812|file:///media/USB%20DRIVE/Composition%20and%20Examination/cn/index.html|14|1|V|html
+	    <div v-for="(li,index) in lists.data" class="item" @click="open(li.issueId)" v-show="status">
+	      <img :src="'http://img1-qn.bookan.com.cn/page'+li.webp+'/6217/6217-'+li.issueId+'/cover_small.mg'"
+	        :alt="li.issueName">
+	      <br>
+	      <span>{{ li.issueName }}</span>
+	    </div>
+	    <div id="warp">
+	      <div id="viewer" :style="{marginTop: style + 'vh'}">
+	        <template v-show="!status" v-for="hash in imgArr.data">
+	          <img :src="'http://img1-qn.bookan.com.cn/page6/6217/6217-'+str+'/'+hash.hash+'_big.mg'" alt="" class="page">
+	        </template>
+	      </div>
+	    </div>
+c0239f47d80f4b16a9f3b7913471a036|file:///media/USB%20DRIVE/Composition%20and%20Examination/cn/index.html|30|1|V|html
+	  document.onkeydown = function (event) {
+	    var f = event || window.event || arguments.callee.caller.arguments[0];
+	    if (f.keyCode == 39 || f.keyCode == 74) {
+	      app.nextPage();
+	    }
+	    if (f.keyCode == 37 || f.keyCode == 75) {
+	      app.lastPage();
+	    }
+	  }
+9d49f7839c4c941d0b5da14619c1393d|file:///media/USB%20DRIVE/Composition%20and%20Examination/css/style.css|1|1|V|css
+	*{
+	  margin: 0;
+	}
+	.item{
+	  display: inline-block;
+	  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+	  border-radius: 22px;
+	  margin: 1em;
+	  text-align: center;
+	}
+	.page{
+	  height: 140vh;
+	  display: block;
+	  margin: 0 auto;
+	}
+	#viewer{
+	  text-align: center;
+	}
+	#warp{
+	  height: 100vh;
+	  overflow: hidden;
+	}
+e398a733cf4a59aed3542259eebc0bf1|file:///media/USB%20DRIVE/Composition%20and%20Examination/js/app.js|5|1|V|javascript
+	      lists: [],
+	      imgArr: [],
+	      str: 0,
+	      style: 0,
+	      status: true
+8d30b5cc88ce5e0f5fc18138eda3408d|file:///media/USB%20DRIVE/Composition%20and%20Examination/js/app.js|12|1|V|javascript
+	  mounted() {
+	    fetch('https://api.bookan.com.cn/resource/yearList?resourceType=1&resourceId=6217&year=2020&pageNum=1&limitNum=50')
+	      .then(res => {
+	        return res.json();
+	      })
+	      .then(lists => {
+	        this.lists = lists;
+	      });
+	  },
+	  methods: {
+	    open(str) {
+	      this.status = false;
+	      console.log(str);
+	      this.str = str;
+	      fetch('https://api.bookan.com.cn/resource/getHash?resourceType=1&resourceId=6217&issueId=' + str + '&start=1&end=69')
+	        .then(res => {
+	          return res.json();
+	        })
+	        .then(imgArr => {
+	          this.imgArr = imgArr;
+	        });
+	    },
+	    nextPage() {
+	      this.style -= 20
+	    },
+	    lastPage() {
+	      this.style += 20
+	    }
+	  }
+521f88ceafc154a5a339dcc1e27f9b4c|file:///home/peter/scripts/autostart.sh|14|1|V|sh
+	ss-qt5 &
+43db650e2035525e2528bd50668df4b1|file:///home/peter/scripts/autostart.sh|15|1|V|sh
+	#proxy &
+b706d2ea0fe3a5379eb5e82849ff13a8|file:///home/peter/scripts/autostart.sh|13|1|V|sh
+	albert &
+431387eb7262e1cfc79b125eb8a67c60|file:///home/peter/scripts/autostart_wait.sh|4|1|v|sh
+	proxy
+6c5bc43b443975b806740d8e41146479|file:///home/peter/scripts/autostart_wait.sh|4|1|v|sh
+	albert
+c13488e6de00047c210e2607a07f5005|file:///home/peter/.zshrc|110|14|V|zsh
+	alias server="sudo python -m http.server 80 --directory /home/peter/Documents/Google/homepage"
+662f707d5491e9bce8238a6c0be92190|file:///home/peter/Documents/composition-examination/src/components/reader.vue|87|13|v|vue
+	hidden
+9a668b7e516a1832f570d007380f12db|file:///home/peter/Documents/composition-examination/src/components/reader.vue|55|16|V|vue
+				console.log(str);
+51c5b003306e7cac0ef0a17b8283714c|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	 // 输出文件目录
+0ec2b9b803f892014509fa9127ff3959|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	 outputDir: 'dist',
+e13464c6799ae31819ba97426a469741|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	 // 生产环境是否生成 sourceMap 文件
+1d7573124434119d52a539189a69c814|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	 productionSourceMap: false,
+2e59d280daebe46decdcd1d20cd1ea41|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	 // 服务器端口号
+64429ee02d4ad7bb6c42abfde3b26744|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	 devServer: {
+7740126cd60bd56a3dccb2be782f84a6|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	   port: 1234
+2a8a1a2a149f5d230e9e435bb7f862ee|file:///home/peter/Documents/composition-examination/vue.config.js|4|1|V|javascript
+	  },
+2b87ccdd3494d0220634f0b6f2629452|file:///home/peter/Documents/composition-examination/vue.config.js|2|1|V|javascript
+	 // 基本路径
+3ec03583f8eaec275cb2183db769ff47|file:///home/peter/Documents/composition-examination/.gitignore|1|12|V|
+	node_modules
+b0cf735913a9581f20d2d8bf39535801|file:///home/peter/.config/nvim/init.vim|210|29|V|vim
+	nmap <silent> gr <Plug>(coc-references)
+	
+349a55acf3a49d73b89a99b6ead650b4|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|4|1|V|cpp
+	ifstream fin("zoo.in");
+d3f03debc392c5dd481b5d96d53ef4b6|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|4|1|V|cpp
+	ofstream fout("zoo.out");
+a0010601b829671d79f2f87909902b3b|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|8|1|V|cpp
+	  for(int i=0;i<=n;i++) cin>>a[i];
+17d649afb8eed5c24b20a2849d9ba180|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|6|13|V|cpp
+	  int n,m,c,k;
+	  int a[1000],p[1000],q[1000];
+17d7d05a3cf892dc7e5bb60e1b7b147f|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|4|1|V|cpp
+	  int n,m,c,k;
+d56a34600325020ae5e0e3ac927b70f3|file:///home/peter/Documents/study-videos/src/App.vue|3|1|V|vue
+	    <img alt="Vue logo" src="./assets/logo.png">
+bbde05845889c9d2acc81f99f2a80ef1|file:///home/peter/Documents/study-videos/src/components/HelloWorld.vue|217|14|v|vue
+	https://raw.githubusercontent.com/ybygjylj/datas/master/data.json
+93cbbb33aa5c879d1a927e3502abf22d|file:///home/peter/Documents/study-videos/src/components/HelloWorld.vue|214|4|v|vue
+	subjectCode
+7d91b96415b1df1d3f9388054b3aef12|file:///home/peter/Documents/study-videos/src/components/HelloWorld.vue|65|30|V|vue
+	                subjectCode = 
+bf42c5c4012aefa8edb239fbf025acb7|file:///home/peter/Documents/study-videos/src/components/HelloWorld.vue|66|9|V|vue
+									console.log(subjectCode);
+ccb080dfee39c8edab6ed595928592d5|file:///home/peter/Documents/study-videos/src/components/HelloWorld.vue|69|10|V|vue
+								{{ subject }}
+f92fdce557e6d3073ae2d8943897b40f|file:///home/peter/Documents/study-videos/src/components/HelloWorld.vue|65|29|V|vue
+									subjectCode = subject;
+68e109f0f40ca72a15e05cc22786f8e6|file:///home/peter/Documents/study-videos/src/App.vue|13|3|v|vue
+	HelloWorld
+b071be12144746bede1138775b8e58e6|file:///home/peter/Documents/study-videos/vue.config.js|2|1|V|javascript
+	  // options...
+48427bb655ed7da439b4440a1ae58795|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|11|5|V|cpp
+	  for
+2f4c72e7dbdd08c9ab11c37d007199ca|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|10|1|V|cpp
+	  for(int i=0;i<m;i++){cin>>p[i]>>q[i];p[i]=1;}
+7afb32a15365d6ab735567b497f99d42|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|11|1|V|cpp
+	  for(int i=0;i<m;i++) {cin>>p[i]>>q[i];p[i]=1;}
+feec90628a3c46c8a52622492304a0f8|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|13|18|V|cpp
+	  cout<<ans<<endl;
+7d55ca915ef6d0fd78da5f095be1b9f0|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|14|3|V|cpp
+	  cout<<p[100];
+2d7caa0f7c433de6f881f5d0a0b6d5be|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|14|3|v|cpp
+	cout<<ans-num<<endl
+879dab5a85d370d7a0a18d82139ef596|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|14|1|V|cpp
+	  cout<<ans-num<<endl;
+2bcc12f038a625c70bf6ee7aabc37212|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|13|43|v|cpp
+	cout<<ans-num<<endl;
+a3fd1113a96455231d543caed172fd25|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|7|6|V|cpp
+	  b=a;
+4d345171d970fd0bb2b6a8a3e1bc79f6|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|9|4|V|cpp
+	  dd
+8956e1cda345e2a103fd858ff312b3f0|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|10|5|V|cpp
+	    c
+68fcb5b5adec8bfaf392765332a4d339|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|1|V|cpp
+	  if(a%2==0){
+	    b=a/2;
+	  };
+b9f808d7170f85417fee72c58624f6ee|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|13|12|V|cpp
+	      b=a/2;
+4dc88e614104419c39f12539f78ef6ee|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|14|9|V|cpp
+	        continue;
+caaaf24efc5ef9976cd3898993b277bc|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|16|9|V|cpp
+	        break;
+ced5ad47e478f619a4c7b54d897cc564|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|15|7|V|cpp
+	        cout<<a<<endl;
+7cd3d0fdf16d108dfdccf432547097d7|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|13|8|v|cpp
+	else{
+	        a=a/2;
+	      }
+	
+07aad7b5ef81d8e41dd90c90c01429a8|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|9|V|cpp
+	        cout<<"break"<<endl;
+0cd2f346cb642878513ed7f6e7dd04f3|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|22|1|V|cpp
+	  cout<<c[0]<<endl;
+2db6a9c8b408094ca0da6c1a695a1efb|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|3|V|cpp
+	        c[i]=1;
+9871c3cf3e7c3e1551d1c1106c12927e|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|10|7|V|cpp
+	      if(a/2<2){
+a806f83c6ff2763c8592f68f165ca7a4|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|10|7|V|cpp
+	        i++;
+e82f3e56d2a6718da3f068e5e6f91343|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|10|7|V|cpp
+	      }
+a6ae8ba7d8c48a29511d0479c45f4536|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|7|V|cpp
+	      c[i]=1;
+da3650e61900344cffdfe84dd0255089|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|7|V|cpp
+	      i++;
+fea0891dd0ddd0c423b953bedeced8d9|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|7|V|cpp
+	      a=a/2;
+322e45f98bfd7a0326e089a011269a0f|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|12|5|V|cpp
+	    b=a;
+29a88d1485e85350387e2f089b3e4907|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|13|3|V|cpp
+	  cout<<b<<endl;
+2f8c1153091bcbd13712b3bf16d51343|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|13|3|V|cpp
+	  cout<<c[1]<<endl;
+1cde79c0c3917376730b6f18992cfa62|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|13|3|V|cpp
+	  cout<<c[2]<<endl;
+3a0a10ba29213c0135b4b7daccc86454|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|6|7|V|cpp
+	  int c[100];
+86432afb8b5d13a72407557d46e64a46|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|7|10|V|cpp
+	  for(int i=0;;i++){
+5718bbab5cf427bcf0bd39a47df867b2|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|7|10|V|cpp
+	    if(a%2==0){
+de2a068ac981ce250471f3caf2ebcfb1|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|7|1|V|cpp
+	    }else{
+ea5a1cbe764918679997181a3ea281d3|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|7|1|V|cpp
+	    }
+3f9178c25b78ed8bed19091bcb62e266|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|8|9|v|cpp
+	condition
+f52ceeba305a64ab1e3b59fcd77fbf53|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|9|5|v|cpp
+	statements
+51b162c8e920764696e0f2a9882ac6db|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|10|8|V|cpp
+	      b=
+86461e61e87c0258b4a7e49b793097c7|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|8|5|V|cpp
+	    if (a%2==0) {
+6662d3f0a27e61380b4840553fec7444|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|10|1|V|cpp
+	    cout<<"b"<<b<<endl;
+af70cd5df30ab5bf6a35fd40105ed948|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|7|7|V|cpp
+	  int i=1;
+25e5db74a8909f398390d3a7dbc2f5cc|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|5|V|cpp
+	    cout<<"a="<<a<<endl;
+3b2fb065f3316768d6143e8bedea187d|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|12|5|V|cpp
+	    cout<<1/2<<endl;
+c41396be8656be8bf416b1d680c592bc|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|11|3|V|cpp
+	    cout<<"b="<<b<<endl;
+af8b5fc1d9bedac2a65df299c83e9c21|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|15|10|V|cpp
+	  return jinzhi;
+95674a5c006019d3cef80796d0ade641|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|1|V|cpp
+	  int a,b=0,i=1;
+	  cin>>a;
+	  while(a!=0){
+	    b+=(a%2)*i;
+	    a/=2;
+	    i*=10;
+	  }
+9547efef0aefc7777036a3b03a0ed0b9|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|11|V|cpp
+	  int a,b=0,i=1;
+e1ab7fc43f6dc7e2d5232e559a454047|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|9|V|cpp
+	  cin>>a;
+53e30b106e61c33caff9566cbfe0efdf|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|9|V|cpp
+	  while(a!=0){
+5e66c87e08035d67a1e92d67443d56b3|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|9|V|cpp
+	    b+=(a%2)*i;
+27f9850a942cbc6e923c547e20cca16e|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|9|V|cpp
+	    a/=2;
+49fadd197666e614381bf512f2f8cda8|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|5|9|V|cpp
+	    i*=10;
+6de74a38800108c11c6651904224707a|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|3|1|V|cpp
+	int main()
+	{
+	  int a;
+	  cin>>a;
+	  cout<<jinzhi(a)<<endl;
+	}
+a43c1b0aa53a0c908810c06ab1ff3967|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|3|16|v|cpp
+	input
+4ad4e683d24ebf0214b5ed541a3e18d2|file:///home/peter/Documents/c%2B%2B/zoo/jinzhi.cpp|3|1|V|cpp
+	int jinzhi(int a){
+	  int b=0,i=1;
+	  while(a!=0){
+	    b+=(a%2)*i;
+	    a/=2;
+	    i*=10;
+	  }
+	  return b;
+	}
+a7b7b27f6eaefa09ddc6ff6c92191709|file:///home/peter/Documents/test/composition-examination/vue.config.js|3|28|V|javascript
+	  Vue.config.devtools = true
+b6901513bbcfead53dcb94837f3039fa|file:///home/peter/Documents/test/composition-examination/vue.config.js|4|1|V|javascript
+	Vue.config.devtools = true;
+81426ecacd40587a5006e22e8add4fe9|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|22|43|V|cpp
+	  for(int i=0;i<m;i++) {if(q[i]!=0) num++;}
+ab36890b165d41d156ed838b4c374a51|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|21|30|V|cpp
+	  for(int i=0;i<k;i++) ans*=2;
+59b5623cf4e89cf228d89a834afdf577|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|21|6|V|cpp
+	  int 
+c50193a555c99a191dc8cd099c1f0bff|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|19|7|V|cpp
+	  num=2
+7795da8b020218637982ef9e07da229c|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|20|1|V|cpp
+	  for(int i=0;i<n;i++) cin>>a[i];
+01aeede05a40ec2f76769e27673ad63d|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|23|59|v|cpp
+	cout<<sizeof("12345")<<endl
+feb29ea7a61e89a94e16dcbdbae4c3d5|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|23|59|v|cpp
+	cout<<sizeof("12345")<<endl;
+0b1eb692f1f5029f7123d38db6b22e54|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|18|3|V|cpp
+	  cout<<sizeof(to_wstring(12345))<<endl;
+08ffcc419e9f73987ed77ae5c0eefceb|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|18|7|V|cpp
+	  cout<<12345<<endl;
+07004d3c814a1ba18d3fde93216ef696|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|24|1|V|cpp
+	  cout<<num<<endl;
+67769da530ad99b2cef342420e121d72|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|26|17|V|cpp
+	  stringstream ss;
+e5ce2001930d50579bce22864788b710|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|26|14|V|cpp
+	  int i = 100;
+8af5390d02ddc1d8eb029c5eac893a3c|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|26|8|V|cpp
+	  ss>>i;
+324d76d149d28e3c0c64f7f6cb8401bc|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|26|8|V|cpp
+	  ss<<str;
+677e703fb6fbf3ab8e6823d401e0046e|file:///home/peter/Documents/c%2B%2B/zoo/zoo.cpp|26|8|V|cpp
+	  cout<<ss<<endl;

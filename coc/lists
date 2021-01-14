@@ -1,2 +1,10 @@
-extensions
+sources
+diagnostics
+commands
+outline
+symbols
+location
+links
 explPresets
+services
+extensions
