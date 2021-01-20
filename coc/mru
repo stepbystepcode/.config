@@ -1,3 +1,4 @@
+/home/peter/.config/.gitignore
 /home/peter/Documents/homepage/d2896.js
 /home/peter/Documents/homepage/s2479.js
 /home/peter/.config/nvim/init.vim
@@ -88,7 +89,6 @@
 /home/peter/Documents/blog/source/_posts/创建博客的第一天.md
 /home/peter/Documents/c++/julian/julian.cpp
 /home/peter/Documents/c++/zoo.cpp
-/home/peter/.config/.gitignore
 /home/peter/Downloads/typora-master/INSTALL.md
 /media/1.66_0/_metadata/computed_hashes.json
 /home/peter/lsusb.txt

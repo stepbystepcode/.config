@@ -1,5 +1,3 @@
-2466f50e6d961b6b1ccb525fc3ee8b4a|file:///home/peter/Documents/translate/index.html|39|1|V|html
-	    </script>
 85c9ee1c0c48f43fca5726afde3381e0|file:///home/peter/Documents/translate/index.html|43|1|V|html
 		<script src='https://static.deepl.com/js/translator_early.min.$a5fef3.js'></script>
 8cd03c2da7b97e107ce990e50b6886cf|file:///home/peter/Documents/translate/index.html|226|2|V|html
@@ -782,3 +780,5 @@ adf16b36609508375e561ad00b38b0a3|file:///home/peter/.config/nvim/init.vim|120|1|
 	/study-videos
 28f4dbe897d2b4bfda4f891749f61fe1|file:///home/peter/Documents/homepage/d2896.js|18658|48|v|javascript
 	Pixiv
+1252f01af1e8711a24897f80c56d3313|file:///home/peter/.config/.gitignore|5|1|V|
+	nvim/plugged/vim-snippets
