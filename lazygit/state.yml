@@ -1,9 +1,13 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/peter/.config
+- /home/peter/Public/st
+- /home/peter/Documents/homepage
+- /home/peter/Documents/checkin
+- /media/c/xampp/htdocs
+- /home/peter/Downloads/study-videos
 - /home/peter/Documents/study-videos
 - /home/peter/Documents/composition-examination
 - /home/peter/scripts
 - /home/peter/Public/dwm
-- /home/peter/Public/st
 startuppopupversion: 3

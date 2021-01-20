@@ -1,0 +1,14 @@
+2021/01/15-09:28:04.407 8b7 Reusing MANIFEST /home/peter/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/01/15-09:28:04.407 8b7 Recovering log #8
+2021/01/15-09:28:04.482 8b7 Reusing old log /home/peter/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000008.log 
+2021/01/15-09:28:04.482 8b7 Delete type=2 #7
+2021/01/15-09:28:18.548 951 Level-0 table #13: started
+2021/01/15-09:28:18.582 951 Level-0 table #13: 315227 bytes OK
+2021/01/15-09:28:18.607 951 Delete type=0 #8
+2021/01/15-09:28:18.607 951 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 6502 : 1
+2021/01/15-09:28:18.607 951 Compacting 1@0 + 1@1 files
+2021/01/15-09:28:18.641 951 Generated table #14@0: 3175 keys, 74443 bytes
+2021/01/15-09:28:18.641 951 Compacted 1@0 + 1@1 files => 74443 bytes
+2021/01/15-09:28:18.665 951 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/15-09:28:18.665 951 Delete type=2 #13
+2021/01/15-09:28:18.666 951 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 6502 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

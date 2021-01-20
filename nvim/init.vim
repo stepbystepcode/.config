@@ -47,7 +47,7 @@ map Q :q<CR>
 map R :source $MYVIMRC<CR>
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'connorholyday/vim-snazzy'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-airline/vim-airline'
 "Plug 'bling/vim-bufferline'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -115,13 +115,13 @@ Plug 'honza/vim-snippets'
 call plug#end()
 
 """"""""
-"snazzy
+"dracula
 """"""""
-
-let g:SnazzyTransparent = 1
-colorscheme snazzy
+let g:dracula_colorterm = 0
+colorscheme dracula
 
 let g:airline_powerline_fonts = 1
+let g:airline_theme='dracula'
 """"""""
 "coc
 """"""""

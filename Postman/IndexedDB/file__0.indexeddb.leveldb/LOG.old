@@ -1,0 +1,19 @@
+2021/01/14-22:38:18.256 d1d Reusing MANIFEST /home/peter/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/01/14-22:38:18.382 db6 Level-0 table #5: started
+2021/01/14-22:38:18.424 db6 Level-0 table #5: 498 bytes OK
+2021/01/14-22:38:18.512 db6 Delete type=0 #3
+2021/01/14-22:38:18.512 db6 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/01/14-22:38:19.269 db6 Level-0 table #7: started
+2021/01/14-22:38:19.311 db6 Level-0 table #7: 476 bytes OK
+2021/01/14-22:38:19.341 db6 Delete type=0 #4
+2021/01/14-22:38:19.341 db6 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/01/14-22:38:32.798 db6 Level-0 table #9: started
+2021/01/14-22:38:32.831 db6 Level-0 table #9: 34060 bytes OK
+2021/01/14-22:38:32.857 db6 Delete type=0 #6
+2021/01/14-22:38:32.858 db6 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 2565 : 1
+2021/01/14-22:38:32.858 db6 Compacting 1@0 + 1@1 files
+2021/01/14-22:38:32.899 db6 Generated table #10@0: 1466 keys, 17195 bytes
+2021/01/14-22:38:32.899 db6 Compacted 1@0 + 1@1 files => 17195 bytes
+2021/01/14-22:38:32.924 db6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/01/14-22:38:32.924 db6 Delete type=2 #9
+2021/01/14-22:38:32.924 db6 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 2565 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
